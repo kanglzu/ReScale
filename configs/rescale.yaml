@@ -1,0 +1,94 @@
+dataset: CVC-ClinicDB
+model:
+  name: RecursiveSegFramework
+  in_channels: 3
+  num_classes: 2
+  deep_supervision: true
+  ds_weights:
+  - 1.0
+  - 0.5
+  - 0.25
+  - 0.125
+  - 0.0625
+  channels:
+  - 32
+  - 64
+  - 128
+  - 256
+  - 512
+  blocks_per_stage: 2
+  find_unused_parameters: true
+  broadcast_buffers: false
+data:
+  manifest_json: data/{dataset}/manifest.json
+  splits_json: splits/{dataset}.json
+  image_size:
+  - 256
+  - 256
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
+  recursive_cache:
+    enabled: true
+    prewarm_training_resizes: true
+    cpu_threads: 1
+    validation_memory_mb: 512
+    training_memory_mb: 1024
+    share_training_resize: true
+training:
+  seed: 42
+  fold: 0
+  num_epochs: 200
+  batch_size: 16
+  grad_accum_steps: 1
+  initial_lr: 0.0007
+  warmup_epochs: 15
+  weight_decay: 0.0001
+  optimizer: adamw
+  lr_schedule: cosine
+  eta_min: 1.0e-05
+  grad_clip: 12.0
+  amp: true
+  min_delta: 0.0001
+  ema_alpha: 0.9
+  loss_ce_weight: 0.5
+  amp_dtype: bf16
+metrics:
+  val:
+  - dice
+  - iou
+  - hd95
+  - recall
+  val_hd95_interval: 10
+  val_workers: 4
+output:
+  save_dir: outputs/{dataset}
+  experiment_name: ReScale
+innovations:
+  recursion:
+    enabled: true
+    rounds: 2
+    crop_source: resized
+    margin: 0.1
+    threshold: 0.5
+    min_area: 16
+    crop_batch_size: 24
+    train_one_roi_per_image: true
+    outside_roi_background: true
+    loss_weight: 1.0
+    teacher_forcing:
+      enabled: true
+      epochs: 50
+      min_area: 16
+  network:
+    expansion:
+    - 2
+    - 2
+    - 3
+    - 4
+    - 4
+    context_kernel: 7
+    mamba_channels: 64
+    d_state: 16
+  cuda:
+    enabled: true

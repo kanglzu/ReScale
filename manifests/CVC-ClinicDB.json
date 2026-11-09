@@ -1,0 +1,3078 @@
+{
+  "name": "CVC-ClinicDB",
+  "description": "",
+  "channel_names": {
+    "0": "R",
+    "1": "G",
+    "2": "B"
+  },
+  "labels": {
+    "background": 0,
+    "polyp": 1
+  },
+  "num_classes": 2,
+  "file_ending": ".png",
+  "num_samples": 612,
+  "samples": [
+    {
+      "id": "1",
+      "image": "Original/1.png",
+      "label": "Ground Truth/1.png"
+    },
+    {
+      "id": "10",
+      "image": "Original/10.png",
+      "label": "Ground Truth/10.png"
+    },
+    {
+      "id": "100",
+      "image": "Original/100.png",
+      "label": "Ground Truth/100.png"
+    },
+    {
+      "id": "101",
+      "image": "Original/101.png",
+      "label": "Ground Truth/101.png"
+    },
+    {
+      "id": "102",
+      "image": "Original/102.png",
+      "label": "Ground Truth/102.png"
+    },
+    {
+      "id": "103",
+      "image": "Original/103.png",
+      "label": "Ground Truth/103.png"
+    },
+    {
+      "id": "104",
+      "image": "Original/104.png",
+      "label": "Ground Truth/104.png"
+    },
+    {
+      "id": "105",
+      "image": "Original/105.png",
+      "label": "Ground Truth/105.png"
+    },
+    {
+      "id": "106",
+      "image": "Original/106.png",
+      "label": "Ground Truth/106.png"
+    },
+    {
+      "id": "107",
+      "image": "Original/107.png",
+      "label": "Ground Truth/107.png"
+    },
+    {
+      "id": "108",
+      "image": "Original/108.png",
+      "label": "Ground Truth/108.png"
+    },
+    {
+      "id": "109",
+      "image": "Original/109.png",
+      "label": "Ground Truth/109.png"
+    },
+    {
+      "id": "11",
+      "image": "Original/11.png",
+      "label": "Ground Truth/11.png"
+    },
+    {
+      "id": "110",
+      "image": "Original/110.png",
+      "label": "Ground Truth/110.png"
+    },
+    {
+      "id": "111",
+      "image": "Original/111.png",
+      "label": "Ground Truth/111.png"
+    },
+    {
+      "id": "112",
+      "image": "Original/112.png",
+      "label": "Ground Truth/112.png"
+    },
+    {
+      "id": "113",
+      "image": "Original/113.png",
+      "label": "Ground Truth/113.png"
+    },
+    {
+      "id": "114",
+      "image": "Original/114.png",
+      "label": "Ground Truth/114.png"
+    },
+    {
+      "id": "115",
+      "image": "Original/115.png",
+      "label": "Ground Truth/115.png"
+    },
+    {
+      "id": "116",
+      "image": "Original/116.png",
+      "label": "Ground Truth/116.png"
+    },
+    {
+      "id": "117",
+      "image": "Original/117.png",
+      "label": "Ground Truth/117.png"
+    },
+    {
+      "id": "118",
+      "image": "Original/118.png",
+      "label": "Ground Truth/118.png"
+    },
+    {
+      "id": "119",
+      "image": "Original/119.png",
+      "label": "Ground Truth/119.png"
+    },
+    {
+      "id": "12",
+      "image": "Original/12.png",
+      "label": "Ground Truth/12.png"
+    },
+    {
+      "id": "120",
+      "image": "Original/120.png",
+      "label": "Ground Truth/120.png"
+    },
+    {
+      "id": "121",
+      "image": "Original/121.png",
+      "label": "Ground Truth/121.png"
+    },
+    {
+      "id": "122",
+      "image": "Original/122.png",
+      "label": "Ground Truth/122.png"
+    },
+    {
+      "id": "123",
+      "image": "Original/123.png",
+      "label": "Ground Truth/123.png"
+    },
+    {
+      "id": "124",
+      "image": "Original/124.png",
+      "label": "Ground Truth/124.png"
+    },
+    {
+      "id": "125",
+      "image": "Original/125.png",
+      "label": "Ground Truth/125.png"
+    },
+    {
+      "id": "126",
+      "image": "Original/126.png",
+      "label": "Ground Truth/126.png"
+    },
+    {
+      "id": "127",
+      "image": "Original/127.png",
+      "label": "Ground Truth/127.png"
+    },
+    {
+      "id": "128",
+      "image": "Original/128.png",
+      "label": "Ground Truth/128.png"
+    },
+    {
+      "id": "129",
+      "image": "Original/129.png",
+      "label": "Ground Truth/129.png"
+    },
+    {
+      "id": "13",
+      "image": "Original/13.png",
+      "label": "Ground Truth/13.png"
+    },
+    {
+      "id": "130",
+      "image": "Original/130.png",
+      "label": "Ground Truth/130.png"
+    },
+    {
+      "id": "131",
+      "image": "Original/131.png",
+      "label": "Ground Truth/131.png"
+    },
+    {
+      "id": "132",
+      "image": "Original/132.png",
+      "label": "Ground Truth/132.png"
+    },
+    {
+      "id": "133",
+      "image": "Original/133.png",
+      "label": "Ground Truth/133.png"
+    },
+    {
+      "id": "134",
+      "image": "Original/134.png",
+      "label": "Ground Truth/134.png"
+    },
+    {
+      "id": "135",
+      "image": "Original/135.png",
+      "label": "Ground Truth/135.png"
+    },
+    {
+      "id": "136",
+      "image": "Original/136.png",
+      "label": "Ground Truth/136.png"
+    },
+    {
+      "id": "137",
+      "image": "Original/137.png",
+      "label": "Ground Truth/137.png"
+    },
+    {
+      "id": "138",
+      "image": "Original/138.png",
+      "label": "Ground Truth/138.png"
+    },
+    {
+      "id": "139",
+      "image": "Original/139.png",
+      "label": "Ground Truth/139.png"
+    },
+    {
+      "id": "14",
+      "image": "Original/14.png",
+      "label": "Ground Truth/14.png"
+    },
+    {
+      "id": "140",
+      "image": "Original/140.png",
+      "label": "Ground Truth/140.png"
+    },
+    {
+      "id": "141",
+      "image": "Original/141.png",
+      "label": "Ground Truth/141.png"
+    },
+    {
+      "id": "142",
+      "image": "Original/142.png",
+      "label": "Ground Truth/142.png"
+    },
+    {
+      "id": "143",
+      "image": "Original/143.png",
+      "label": "Ground Truth/143.png"
+    },
+    {
+      "id": "144",
+      "image": "Original/144.png",
+      "label": "Ground Truth/144.png"
+    },
+    {
+      "id": "145",
+      "image": "Original/145.png",
+      "label": "Ground Truth/145.png"
+    },
+    {
+      "id": "146",
+      "image": "Original/146.png",
+      "label": "Ground Truth/146.png"
+    },
+    {
+      "id": "147",
+      "image": "Original/147.png",
+      "label": "Ground Truth/147.png"
+    },
+    {
+      "id": "148",
+      "image": "Original/148.png",
+      "label": "Ground Truth/148.png"
+    },
+    {
+      "id": "149",
+      "image": "Original/149.png",
+      "label": "Ground Truth/149.png"
+    },
+    {
+      "id": "15",
+      "image": "Original/15.png",
+      "label": "Ground Truth/15.png"
+    },
+    {
+      "id": "150",
+      "image": "Original/150.png",
+      "label": "Ground Truth/150.png"
+    },
+    {
+      "id": "151",
+      "image": "Original/151.png",
+      "label": "Ground Truth/151.png"
+    },
+    {
+      "id": "152",
+      "image": "Original/152.png",
+      "label": "Ground Truth/152.png"
+    },
+    {
+      "id": "153",
+      "image": "Original/153.png",
+      "label": "Ground Truth/153.png"
+    },
+    {
+      "id": "154",
+      "image": "Original/154.png",
+      "label": "Ground Truth/154.png"
+    },
+    {
+      "id": "155",
+      "image": "Original/155.png",
+      "label": "Ground Truth/155.png"
+    },
+    {
+      "id": "156",
+      "image": "Original/156.png",
+      "label": "Ground Truth/156.png"
+    },
+    {
+      "id": "157",
+      "image": "Original/157.png",
+      "label": "Ground Truth/157.png"
+    },
+    {
+      "id": "158",
+      "image": "Original/158.png",
+      "label": "Ground Truth/158.png"
+    },
+    {
+      "id": "159",
+      "image": "Original/159.png",
+      "label": "Ground Truth/159.png"
+    },
+    {
+      "id": "16",
+      "image": "Original/16.png",
+      "label": "Ground Truth/16.png"
+    },
+    {
+      "id": "160",
+      "image": "Original/160.png",
+      "label": "Ground Truth/160.png"
+    },
+    {
+      "id": "161",
+      "image": "Original/161.png",
+      "label": "Ground Truth/161.png"
+    },
+    {
+      "id": "162",
+      "image": "Original/162.png",
+      "label": "Ground Truth/162.png"
+    },
+    {
+      "id": "163",
+      "image": "Original/163.png",
+      "label": "Ground Truth/163.png"
+    },
+    {
+      "id": "164",
+      "image": "Original/164.png",
+      "label": "Ground Truth/164.png"
+    },
+    {
+      "id": "165",
+      "image": "Original/165.png",
+      "label": "Ground Truth/165.png"
+    },
+    {
+      "id": "166",
+      "image": "Original/166.png",
+      "label": "Ground Truth/166.png"
+    },
+    {
+      "id": "167",
+      "image": "Original/167.png",
+      "label": "Ground Truth/167.png"
+    },
+    {
+      "id": "168",
+      "image": "Original/168.png",
+      "label": "Ground Truth/168.png"
+    },
+    {
+      "id": "169",
+      "image": "Original/169.png",
+      "label": "Ground Truth/169.png"
+    },
+    {
+      "id": "17",
+      "image": "Original/17.png",
+      "label": "Ground Truth/17.png"
+    },
+    {
+      "id": "170",
+      "image": "Original/170.png",
+      "label": "Ground Truth/170.png"
+    },
+    {
+      "id": "171",
+      "image": "Original/171.png",
+      "label": "Ground Truth/171.png"
+    },
+    {
+      "id": "172",
+      "image": "Original/172.png",
+      "label": "Ground Truth/172.png"
+    },
+    {
+      "id": "173",
+      "image": "Original/173.png",
+      "label": "Ground Truth/173.png"
+    },
+    {
+      "id": "174",
+      "image": "Original/174.png",
+      "label": "Ground Truth/174.png"
+    },
+    {
+      "id": "175",
+      "image": "Original/175.png",
+      "label": "Ground Truth/175.png"
+    },
+    {
+      "id": "176",
+      "image": "Original/176.png",
+      "label": "Ground Truth/176.png"
+    },
+    {
+      "id": "177",
+      "image": "Original/177.png",
+      "label": "Ground Truth/177.png"
+    },
+    {
+      "id": "178",
+      "image": "Original/178.png",
+      "label": "Ground Truth/178.png"
+    },
+    {
+      "id": "179",
+      "image": "Original/179.png",
+      "label": "Ground Truth/179.png"
+    },
+    {
+      "id": "18",
+      "image": "Original/18.png",
+      "label": "Ground Truth/18.png"
+    },
+    {
+      "id": "180",
+      "image": "Original/180.png",
+      "label": "Ground Truth/180.png"
+    },
+    {
+      "id": "181",
+      "image": "Original/181.png",
+      "label": "Ground Truth/181.png"
+    },
+    {
+      "id": "182",
+      "image": "Original/182.png",
+      "label": "Ground Truth/182.png"
+    },
+    {
+      "id": "183",
+      "image": "Original/183.png",
+      "label": "Ground Truth/183.png"
+    },
+    {
+      "id": "184",
+      "image": "Original/184.png",
+      "label": "Ground Truth/184.png"
+    },
+    {
+      "id": "185",
+      "image": "Original/185.png",
+      "label": "Ground Truth/185.png"
+    },
+    {
+      "id": "186",
+      "image": "Original/186.png",
+      "label": "Ground Truth/186.png"
+    },
+    {
+      "id": "187",
+      "image": "Original/187.png",
+      "label": "Ground Truth/187.png"
+    },
+    {
+      "id": "188",
+      "image": "Original/188.png",
+      "label": "Ground Truth/188.png"
+    },
+    {
+      "id": "189",
+      "image": "Original/189.png",
+      "label": "Ground Truth/189.png"
+    },
+    {
+      "id": "19",
+      "image": "Original/19.png",
+      "label": "Ground Truth/19.png"
+    },
+    {
+      "id": "190",
+      "image": "Original/190.png",
+      "label": "Ground Truth/190.png"
+    },
+    {
+      "id": "191",
+      "image": "Original/191.png",
+      "label": "Ground Truth/191.png"
+    },
+    {
+      "id": "192",
+      "image": "Original/192.png",
+      "label": "Ground Truth/192.png"
+    },
+    {
+      "id": "193",
+      "image": "Original/193.png",
+      "label": "Ground Truth/193.png"
+    },
+    {
+      "id": "194",
+      "image": "Original/194.png",
+      "label": "Ground Truth/194.png"
+    },
+    {
+      "id": "195",
+      "image": "Original/195.png",
+      "label": "Ground Truth/195.png"
+    },
+    {
+      "id": "196",
+      "image": "Original/196.png",
+      "label": "Ground Truth/196.png"
+    },
+    {
+      "id": "197",
+      "image": "Original/197.png",
+      "label": "Ground Truth/197.png"
+    },
+    {
+      "id": "198",
+      "image": "Original/198.png",
+      "label": "Ground Truth/198.png"
+    },
+    {
+      "id": "199",
+      "image": "Original/199.png",
+      "label": "Ground Truth/199.png"
+    },
+    {
+      "id": "2",
+      "image": "Original/2.png",
+      "label": "Ground Truth/2.png"
+    },
+    {
+      "id": "20",
+      "image": "Original/20.png",
+      "label": "Ground Truth/20.png"
+    },
+    {
+      "id": "200",
+      "image": "Original/200.png",
+      "label": "Ground Truth/200.png"
+    },
+    {
+      "id": "201",
+      "image": "Original/201.png",
+      "label": "Ground Truth/201.png"
+    },
+    {
+      "id": "202",
+      "image": "Original/202.png",
+      "label": "Ground Truth/202.png"
+    },
+    {
+      "id": "203",
+      "image": "Original/203.png",
+      "label": "Ground Truth/203.png"
+    },
+    {
+      "id": "204",
+      "image": "Original/204.png",
+      "label": "Ground Truth/204.png"
+    },
+    {
+      "id": "205",
+      "image": "Original/205.png",
+      "label": "Ground Truth/205.png"
+    },
+    {
+      "id": "206",
+      "image": "Original/206.png",
+      "label": "Ground Truth/206.png"
+    },
+    {
+      "id": "207",
+      "image": "Original/207.png",
+      "label": "Ground Truth/207.png"
+    },
+    {
+      "id": "208",
+      "image": "Original/208.png",
+      "label": "Ground Truth/208.png"
+    },
+    {
+      "id": "209",
+      "image": "Original/209.png",
+      "label": "Ground Truth/209.png"
+    },
+    {
+      "id": "21",
+      "image": "Original/21.png",
+      "label": "Ground Truth/21.png"
+    },
+    {
+      "id": "210",
+      "image": "Original/210.png",
+      "label": "Ground Truth/210.png"
+    },
+    {
+      "id": "211",
+      "image": "Original/211.png",
+      "label": "Ground Truth/211.png"
+    },
+    {
+      "id": "212",
+      "image": "Original/212.png",
+      "label": "Ground Truth/212.png"
+    },
+    {
+      "id": "213",
+      "image": "Original/213.png",
+      "label": "Ground Truth/213.png"
+    },
+    {
+      "id": "214",
+      "image": "Original/214.png",
+      "label": "Ground Truth/214.png"
+    },
+    {
+      "id": "215",
+      "image": "Original/215.png",
+      "label": "Ground Truth/215.png"
+    },
+    {
+      "id": "216",
+      "image": "Original/216.png",
+      "label": "Ground Truth/216.png"
+    },
+    {
+      "id": "217",
+      "image": "Original/217.png",
+      "label": "Ground Truth/217.png"
+    },
+    {
+      "id": "218",
+      "image": "Original/218.png",
+      "label": "Ground Truth/218.png"
+    },
+    {
+      "id": "219",
+      "image": "Original/219.png",
+      "label": "Ground Truth/219.png"
+    },
+    {
+      "id": "22",
+      "image": "Original/22.png",
+      "label": "Ground Truth/22.png"
+    },
+    {
+      "id": "220",
+      "image": "Original/220.png",
+      "label": "Ground Truth/220.png"
+    },
+    {
+      "id": "221",
+      "image": "Original/221.png",
+      "label": "Ground Truth/221.png"
+    },
+    {
+      "id": "222",
+      "image": "Original/222.png",
+      "label": "Ground Truth/222.png"
+    },
+    {
+      "id": "223",
+      "image": "Original/223.png",
+      "label": "Ground Truth/223.png"
+    },
+    {
+      "id": "224",
+      "image": "Original/224.png",
+      "label": "Ground Truth/224.png"
+    },
+    {
+      "id": "225",
+      "image": "Original/225.png",
+      "label": "Ground Truth/225.png"
+    },
+    {
+      "id": "226",
+      "image": "Original/226.png",
+      "label": "Ground Truth/226.png"
+    },
+    {
+      "id": "227",
+      "image": "Original/227.png",
+      "label": "Ground Truth/227.png"
+    },
+    {
+      "id": "228",
+      "image": "Original/228.png",
+      "label": "Ground Truth/228.png"
+    },
+    {
+      "id": "229",
+      "image": "Original/229.png",
+      "label": "Ground Truth/229.png"
+    },
+    {
+      "id": "23",
+      "image": "Original/23.png",
+      "label": "Ground Truth/23.png"
+    },
+    {
+      "id": "230",
+      "image": "Original/230.png",
+      "label": "Ground Truth/230.png"
+    },
+    {
+      "id": "231",
+      "image": "Original/231.png",
+      "label": "Ground Truth/231.png"
+    },
+    {
+      "id": "232",
+      "image": "Original/232.png",
+      "label": "Ground Truth/232.png"
+    },
+    {
+      "id": "233",
+      "image": "Original/233.png",
+      "label": "Ground Truth/233.png"
+    },
+    {
+      "id": "234",
+      "image": "Original/234.png",
+      "label": "Ground Truth/234.png"
+    },
+    {
+      "id": "235",
+      "image": "Original/235.png",
+      "label": "Ground Truth/235.png"
+    },
+    {
+      "id": "236",
+      "image": "Original/236.png",
+      "label": "Ground Truth/236.png"
+    },
+    {
+      "id": "237",
+      "image": "Original/237.png",
+      "label": "Ground Truth/237.png"
+    },
+    {
+      "id": "238",
+      "image": "Original/238.png",
+      "label": "Ground Truth/238.png"
+    },
+    {
+      "id": "239",
+      "image": "Original/239.png",
+      "label": "Ground Truth/239.png"
+    },
+    {
+      "id": "24",
+      "image": "Original/24.png",
+      "label": "Ground Truth/24.png"
+    },
+    {
+      "id": "240",
+      "image": "Original/240.png",
+      "label": "Ground Truth/240.png"
+    },
+    {
+      "id": "241",
+      "image": "Original/241.png",
+      "label": "Ground Truth/241.png"
+    },
+    {
+      "id": "242",
+      "image": "Original/242.png",
+      "label": "Ground Truth/242.png"
+    },
+    {
+      "id": "243",
+      "image": "Original/243.png",
+      "label": "Ground Truth/243.png"
+    },
+    {
+      "id": "244",
+      "image": "Original/244.png",
+      "label": "Ground Truth/244.png"
+    },
+    {
+      "id": "245",
+      "image": "Original/245.png",
+      "label": "Ground Truth/245.png"
+    },
+    {
+      "id": "246",
+      "image": "Original/246.png",
+      "label": "Ground Truth/246.png"
+    },
+    {
+      "id": "247",
+      "image": "Original/247.png",
+      "label": "Ground Truth/247.png"
+    },
+    {
+      "id": "248",
+      "image": "Original/248.png",
+      "label": "Ground Truth/248.png"
+    },
+    {
+      "id": "249",
+      "image": "Original/249.png",
+      "label": "Ground Truth/249.png"
+    },
+    {
+      "id": "25",
+      "image": "Original/25.png",
+      "label": "Ground Truth/25.png"
+    },
+    {
+      "id": "250",
+      "image": "Original/250.png",
+      "label": "Ground Truth/250.png"
+    },
+    {
+      "id": "251",
+      "image": "Original/251.png",
+      "label": "Ground Truth/251.png"
+    },
+    {
+      "id": "252",
+      "image": "Original/252.png",
+      "label": "Ground Truth/252.png"
+    },
+    {
+      "id": "253",
+      "image": "Original/253.png",
+      "label": "Ground Truth/253.png"
+    },
+    {
+      "id": "254",
+      "image": "Original/254.png",
+      "label": "Ground Truth/254.png"
+    },
+    {
+      "id": "255",
+      "image": "Original/255.png",
+      "label": "Ground Truth/255.png"
+    },
+    {
+      "id": "256",
+      "image": "Original/256.png",
+      "label": "Ground Truth/256.png"
+    },
+    {
+      "id": "257",
+      "image": "Original/257.png",
+      "label": "Ground Truth/257.png"
+    },
+    {
+      "id": "258",
+      "image": "Original/258.png",
+      "label": "Ground Truth/258.png"
+    },
+    {
+      "id": "259",
+      "image": "Original/259.png",
+      "label": "Ground Truth/259.png"
+    },
+    {
+      "id": "26",
+      "image": "Original/26.png",
+      "label": "Ground Truth/26.png"
+    },
+    {
+      "id": "260",
+      "image": "Original/260.png",
+      "label": "Ground Truth/260.png"
+    },
+    {
+      "id": "261",
+      "image": "Original/261.png",
+      "label": "Ground Truth/261.png"
+    },
+    {
+      "id": "262",
+      "image": "Original/262.png",
+      "label": "Ground Truth/262.png"
+    },
+    {
+      "id": "263",
+      "image": "Original/263.png",
+      "label": "Ground Truth/263.png"
+    },
+    {
+      "id": "264",
+      "image": "Original/264.png",
+      "label": "Ground Truth/264.png"
+    },
+    {
+      "id": "265",
+      "image": "Original/265.png",
+      "label": "Ground Truth/265.png"
+    },
+    {
+      "id": "266",
+      "image": "Original/266.png",
+      "label": "Ground Truth/266.png"
+    },
+    {
+      "id": "267",
+      "image": "Original/267.png",
+      "label": "Ground Truth/267.png"
+    },
+    {
+      "id": "268",
+      "image": "Original/268.png",
+      "label": "Ground Truth/268.png"
+    },
+    {
+      "id": "269",
+      "image": "Original/269.png",
+      "label": "Ground Truth/269.png"
+    },
+    {
+      "id": "27",
+      "image": "Original/27.png",
+      "label": "Ground Truth/27.png"
+    },
+    {
+      "id": "270",
+      "image": "Original/270.png",
+      "label": "Ground Truth/270.png"
+    },
+    {
+      "id": "271",
+      "image": "Original/271.png",
+      "label": "Ground Truth/271.png"
+    },
+    {
+      "id": "272",
+      "image": "Original/272.png",
+      "label": "Ground Truth/272.png"
+    },
+    {
+      "id": "273",
+      "image": "Original/273.png",
+      "label": "Ground Truth/273.png"
+    },
+    {
+      "id": "274",
+      "image": "Original/274.png",
+      "label": "Ground Truth/274.png"
+    },
+    {
+      "id": "275",
+      "image": "Original/275.png",
+      "label": "Ground Truth/275.png"
+    },
+    {
+      "id": "276",
+      "image": "Original/276.png",
+      "label": "Ground Truth/276.png"
+    },
+    {
+      "id": "277",
+      "image": "Original/277.png",
+      "label": "Ground Truth/277.png"
+    },
+    {
+      "id": "278",
+      "image": "Original/278.png",
+      "label": "Ground Truth/278.png"
+    },
+    {
+      "id": "279",
+      "image": "Original/279.png",
+      "label": "Ground Truth/279.png"
+    },
+    {
+      "id": "28",
+      "image": "Original/28.png",
+      "label": "Ground Truth/28.png"
+    },
+    {
+      "id": "280",
+      "image": "Original/280.png",
+      "label": "Ground Truth/280.png"
+    },
+    {
+      "id": "281",
+      "image": "Original/281.png",
+      "label": "Ground Truth/281.png"
+    },
+    {
+      "id": "282",
+      "image": "Original/282.png",
+      "label": "Ground Truth/282.png"
+    },
+    {
+      "id": "283",
+      "image": "Original/283.png",
+      "label": "Ground Truth/283.png"
+    },
+    {
+      "id": "284",
+      "image": "Original/284.png",
+      "label": "Ground Truth/284.png"
+    },
+    {
+      "id": "285",
+      "image": "Original/285.png",
+      "label": "Ground Truth/285.png"
+    },
+    {
+      "id": "286",
+      "image": "Original/286.png",
+      "label": "Ground Truth/286.png"
+    },
+    {
+      "id": "287",
+      "image": "Original/287.png",
+      "label": "Ground Truth/287.png"
+    },
+    {
+      "id": "288",
+      "image": "Original/288.png",
+      "label": "Ground Truth/288.png"
+    },
+    {
+      "id": "289",
+      "image": "Original/289.png",
+      "label": "Ground Truth/289.png"
+    },
+    {
+      "id": "29",
+      "image": "Original/29.png",
+      "label": "Ground Truth/29.png"
+    },
+    {
+      "id": "290",
+      "image": "Original/290.png",
+      "label": "Ground Truth/290.png"
+    },
+    {
+      "id": "291",
+      "image": "Original/291.png",
+      "label": "Ground Truth/291.png"
+    },
+    {
+      "id": "292",
+      "image": "Original/292.png",
+      "label": "Ground Truth/292.png"
+    },
+    {
+      "id": "293",
+      "image": "Original/293.png",
+      "label": "Ground Truth/293.png"
+    },
+    {
+      "id": "294",
+      "image": "Original/294.png",
+      "label": "Ground Truth/294.png"
+    },
+    {
+      "id": "295",
+      "image": "Original/295.png",
+      "label": "Ground Truth/295.png"
+    },
+    {
+      "id": "296",
+      "image": "Original/296.png",
+      "label": "Ground Truth/296.png"
+    },
+    {
+      "id": "297",
+      "image": "Original/297.png",
+      "label": "Ground Truth/297.png"
+    },
+    {
+      "id": "298",
+      "image": "Original/298.png",
+      "label": "Ground Truth/298.png"
+    },
+    {
+      "id": "299",
+      "image": "Original/299.png",
+      "label": "Ground Truth/299.png"
+    },
+    {
+      "id": "3",
+      "image": "Original/3.png",
+      "label": "Ground Truth/3.png"
+    },
+    {
+      "id": "30",
+      "image": "Original/30.png",
+      "label": "Ground Truth/30.png"
+    },
+    {
+      "id": "300",
+      "image": "Original/300.png",
+      "label": "Ground Truth/300.png"
+    },
+    {
+      "id": "301",
+      "image": "Original/301.png",
+      "label": "Ground Truth/301.png"
+    },
+    {
+      "id": "302",
+      "image": "Original/302.png",
+      "label": "Ground Truth/302.png"
+    },
+    {
+      "id": "303",
+      "image": "Original/303.png",
+      "label": "Ground Truth/303.png"
+    },
+    {
+      "id": "304",
+      "image": "Original/304.png",
+      "label": "Ground Truth/304.png"
+    },
+    {
+      "id": "305",
+      "image": "Original/305.png",
+      "label": "Ground Truth/305.png"
+    },
+    {
+      "id": "306",
+      "image": "Original/306.png",
+      "label": "Ground Truth/306.png"
+    },
+    {
+      "id": "307",
+      "image": "Original/307.png",
+      "label": "Ground Truth/307.png"
+    },
+    {
+      "id": "308",
+      "image": "Original/308.png",
+      "label": "Ground Truth/308.png"
+    },
+    {
+      "id": "309",
+      "image": "Original/309.png",
+      "label": "Ground Truth/309.png"
+    },
+    {
+      "id": "31",
+      "image": "Original/31.png",
+      "label": "Ground Truth/31.png"
+    },
+    {
+      "id": "310",
+      "image": "Original/310.png",
+      "label": "Ground Truth/310.png"
+    },
+    {
+      "id": "311",
+      "image": "Original/311.png",
+      "label": "Ground Truth/311.png"
+    },
+    {
+      "id": "312",
+      "image": "Original/312.png",
+      "label": "Ground Truth/312.png"
+    },
+    {
+      "id": "313",
+      "image": "Original/313.png",
+      "label": "Ground Truth/313.png"
+    },
+    {
+      "id": "314",
+      "image": "Original/314.png",
+      "label": "Ground Truth/314.png"
+    },
+    {
+      "id": "315",
+      "image": "Original/315.png",
+      "label": "Ground Truth/315.png"
+    },
+    {
+      "id": "316",
+      "image": "Original/316.png",
+      "label": "Ground Truth/316.png"
+    },
+    {
+      "id": "317",
+      "image": "Original/317.png",
+      "label": "Ground Truth/317.png"
+    },
+    {
+      "id": "318",
+      "image": "Original/318.png",
+      "label": "Ground Truth/318.png"
+    },
+    {
+      "id": "319",
+      "image": "Original/319.png",
+      "label": "Ground Truth/319.png"
+    },
+    {
+      "id": "32",
+      "image": "Original/32.png",
+      "label": "Ground Truth/32.png"
+    },
+    {
+      "id": "320",
+      "image": "Original/320.png",
+      "label": "Ground Truth/320.png"
+    },
+    {
+      "id": "321",
+      "image": "Original/321.png",
+      "label": "Ground Truth/321.png"
+    },
+    {
+      "id": "322",
+      "image": "Original/322.png",
+      "label": "Ground Truth/322.png"
+    },
+    {
+      "id": "323",
+      "image": "Original/323.png",
+      "label": "Ground Truth/323.png"
+    },
+    {
+      "id": "324",
+      "image": "Original/324.png",
+      "label": "Ground Truth/324.png"
+    },
+    {
+      "id": "325",
+      "image": "Original/325.png",
+      "label": "Ground Truth/325.png"
+    },
+    {
+      "id": "326",
+      "image": "Original/326.png",
+      "label": "Ground Truth/326.png"
+    },
+    {
+      "id": "327",
+      "image": "Original/327.png",
+      "label": "Ground Truth/327.png"
+    },
+    {
+      "id": "328",
+      "image": "Original/328.png",
+      "label": "Ground Truth/328.png"
+    },
+    {
+      "id": "329",
+      "image": "Original/329.png",
+      "label": "Ground Truth/329.png"
+    },
+    {
+      "id": "33",
+      "image": "Original/33.png",
+      "label": "Ground Truth/33.png"
+    },
+    {
+      "id": "330",
+      "image": "Original/330.png",
+      "label": "Ground Truth/330.png"
+    },
+    {
+      "id": "331",
+      "image": "Original/331.png",
+      "label": "Ground Truth/331.png"
+    },
+    {
+      "id": "332",
+      "image": "Original/332.png",
+      "label": "Ground Truth/332.png"
+    },
+    {
+      "id": "333",
+      "image": "Original/333.png",
+      "label": "Ground Truth/333.png"
+    },
+    {
+      "id": "334",
+      "image": "Original/334.png",
+      "label": "Ground Truth/334.png"
+    },
+    {
+      "id": "335",
+      "image": "Original/335.png",
+      "label": "Ground Truth/335.png"
+    },
+    {
+      "id": "336",
+      "image": "Original/336.png",
+      "label": "Ground Truth/336.png"
+    },
+    {
+      "id": "337",
+      "image": "Original/337.png",
+      "label": "Ground Truth/337.png"
+    },
+    {
+      "id": "338",
+      "image": "Original/338.png",
+      "label": "Ground Truth/338.png"
+    },
+    {
+      "id": "339",
+      "image": "Original/339.png",
+      "label": "Ground Truth/339.png"
+    },
+    {
+      "id": "34",
+      "image": "Original/34.png",
+      "label": "Ground Truth/34.png"
+    },
+    {
+      "id": "340",
+      "image": "Original/340.png",
+      "label": "Ground Truth/340.png"
+    },
+    {
+      "id": "341",
+      "image": "Original/341.png",
+      "label": "Ground Truth/341.png"
+    },
+    {
+      "id": "342",
+      "image": "Original/342.png",
+      "label": "Ground Truth/342.png"
+    },
+    {
+      "id": "343",
+      "image": "Original/343.png",
+      "label": "Ground Truth/343.png"
+    },
+    {
+      "id": "344",
+      "image": "Original/344.png",
+      "label": "Ground Truth/344.png"
+    },
+    {
+      "id": "345",
+      "image": "Original/345.png",
+      "label": "Ground Truth/345.png"
+    },
+    {
+      "id": "346",
+      "image": "Original/346.png",
+      "label": "Ground Truth/346.png"
+    },
+    {
+      "id": "347",
+      "image": "Original/347.png",
+      "label": "Ground Truth/347.png"
+    },
+    {
+      "id": "348",
+      "image": "Original/348.png",
+      "label": "Ground Truth/348.png"
+    },
+    {
+      "id": "349",
+      "image": "Original/349.png",
+      "label": "Ground Truth/349.png"
+    },
+    {
+      "id": "35",
+      "image": "Original/35.png",
+      "label": "Ground Truth/35.png"
+    },
+    {
+      "id": "350",
+      "image": "Original/350.png",
+      "label": "Ground Truth/350.png"
+    },
+    {
+      "id": "351",
+      "image": "Original/351.png",
+      "label": "Ground Truth/351.png"
+    },
+    {
+      "id": "352",
+      "image": "Original/352.png",
+      "label": "Ground Truth/352.png"
+    },
+    {
+      "id": "353",
+      "image": "Original/353.png",
+      "label": "Ground Truth/353.png"
+    },
+    {
+      "id": "354",
+      "image": "Original/354.png",
+      "label": "Ground Truth/354.png"
+    },
+    {
+      "id": "355",
+      "image": "Original/355.png",
+      "label": "Ground Truth/355.png"
+    },
+    {
+      "id": "356",
+      "image": "Original/356.png",
+      "label": "Ground Truth/356.png"
+    },
+    {
+      "id": "357",
+      "image": "Original/357.png",
+      "label": "Ground Truth/357.png"
+    },
+    {
+      "id": "358",
+      "image": "Original/358.png",
+      "label": "Ground Truth/358.png"
+    },
+    {
+      "id": "359",
+      "image": "Original/359.png",
+      "label": "Ground Truth/359.png"
+    },
+    {
+      "id": "36",
+      "image": "Original/36.png",
+      "label": "Ground Truth/36.png"
+    },
+    {
+      "id": "360",
+      "image": "Original/360.png",
+      "label": "Ground Truth/360.png"
+    },
+    {
+      "id": "361",
+      "image": "Original/361.png",
+      "label": "Ground Truth/361.png"
+    },
+    {
+      "id": "362",
+      "image": "Original/362.png",
+      "label": "Ground Truth/362.png"
+    },
+    {
+      "id": "363",
+      "image": "Original/363.png",
+      "label": "Ground Truth/363.png"
+    },
+    {
+      "id": "364",
+      "image": "Original/364.png",
+      "label": "Ground Truth/364.png"
+    },
+    {
+      "id": "365",
+      "image": "Original/365.png",
+      "label": "Ground Truth/365.png"
+    },
+    {
+      "id": "366",
+      "image": "Original/366.png",
+      "label": "Ground Truth/366.png"
+    },
+    {
+      "id": "367",
+      "image": "Original/367.png",
+      "label": "Ground Truth/367.png"
+    },
+    {
+      "id": "368",
+      "image": "Original/368.png",
+      "label": "Ground Truth/368.png"
+    },
+    {
+      "id": "369",
+      "image": "Original/369.png",
+      "label": "Ground Truth/369.png"
+    },
+    {
+      "id": "37",
+      "image": "Original/37.png",
+      "label": "Ground Truth/37.png"
+    },
+    {
+      "id": "370",
+      "image": "Original/370.png",
+      "label": "Ground Truth/370.png"
+    },
+    {
+      "id": "371",
+      "image": "Original/371.png",
+      "label": "Ground Truth/371.png"
+    },
+    {
+      "id": "372",
+      "image": "Original/372.png",
+      "label": "Ground Truth/372.png"
+    },
+    {
+      "id": "373",
+      "image": "Original/373.png",
+      "label": "Ground Truth/373.png"
+    },
+    {
+      "id": "374",
+      "image": "Original/374.png",
+      "label": "Ground Truth/374.png"
+    },
+    {
+      "id": "375",
+      "image": "Original/375.png",
+      "label": "Ground Truth/375.png"
+    },
+    {
+      "id": "376",
+      "image": "Original/376.png",
+      "label": "Ground Truth/376.png"
+    },
+    {
+      "id": "377",
+      "image": "Original/377.png",
+      "label": "Ground Truth/377.png"
+    },
+    {
+      "id": "378",
+      "image": "Original/378.png",
+      "label": "Ground Truth/378.png"
+    },
+    {
+      "id": "379",
+      "image": "Original/379.png",
+      "label": "Ground Truth/379.png"
+    },
+    {
+      "id": "38",
+      "image": "Original/38.png",
+      "label": "Ground Truth/38.png"
+    },
+    {
+      "id": "380",
+      "image": "Original/380.png",
+      "label": "Ground Truth/380.png"
+    },
+    {
+      "id": "381",
+      "image": "Original/381.png",
+      "label": "Ground Truth/381.png"
+    },
+    {
+      "id": "382",
+      "image": "Original/382.png",
+      "label": "Ground Truth/382.png"
+    },
+    {
+      "id": "383",
+      "image": "Original/383.png",
+      "label": "Ground Truth/383.png"
+    },
+    {
+      "id": "384",
+      "image": "Original/384.png",
+      "label": "Ground Truth/384.png"
+    },
+    {
+      "id": "385",
+      "image": "Original/385.png",
+      "label": "Ground Truth/385.png"
+    },
+    {
+      "id": "386",
+      "image": "Original/386.png",
+      "label": "Ground Truth/386.png"
+    },
+    {
+      "id": "387",
+      "image": "Original/387.png",
+      "label": "Ground Truth/387.png"
+    },
+    {
+      "id": "388",
+      "image": "Original/388.png",
+      "label": "Ground Truth/388.png"
+    },
+    {
+      "id": "389",
+      "image": "Original/389.png",
+      "label": "Ground Truth/389.png"
+    },
+    {
+      "id": "39",
+      "image": "Original/39.png",
+      "label": "Ground Truth/39.png"
+    },
+    {
+      "id": "390",
+      "image": "Original/390.png",
+      "label": "Ground Truth/390.png"
+    },
+    {
+      "id": "391",
+      "image": "Original/391.png",
+      "label": "Ground Truth/391.png"
+    },
+    {
+      "id": "392",
+      "image": "Original/392.png",
+      "label": "Ground Truth/392.png"
+    },
+    {
+      "id": "393",
+      "image": "Original/393.png",
+      "label": "Ground Truth/393.png"
+    },
+    {
+      "id": "394",
+      "image": "Original/394.png",
+      "label": "Ground Truth/394.png"
+    },
+    {
+      "id": "395",
+      "image": "Original/395.png",
+      "label": "Ground Truth/395.png"
+    },
+    {
+      "id": "396",
+      "image": "Original/396.png",
+      "label": "Ground Truth/396.png"
+    },
+    {
+      "id": "397",
+      "image": "Original/397.png",
+      "label": "Ground Truth/397.png"
+    },
+    {
+      "id": "398",
+      "image": "Original/398.png",
+      "label": "Ground Truth/398.png"
+    },
+    {
+      "id": "399",
+      "image": "Original/399.png",
+      "label": "Ground Truth/399.png"
+    },
+    {
+      "id": "4",
+      "image": "Original/4.png",
+      "label": "Ground Truth/4.png"
+    },
+    {
+      "id": "40",
+      "image": "Original/40.png",
+      "label": "Ground Truth/40.png"
+    },
+    {
+      "id": "400",
+      "image": "Original/400.png",
+      "label": "Ground Truth/400.png"
+    },
+    {
+      "id": "401",
+      "image": "Original/401.png",
+      "label": "Ground Truth/401.png"
+    },
+    {
+      "id": "402",
+      "image": "Original/402.png",
+      "label": "Ground Truth/402.png"
+    },
+    {
+      "id": "403",
+      "image": "Original/403.png",
+      "label": "Ground Truth/403.png"
+    },
+    {
+      "id": "404",
+      "image": "Original/404.png",
+      "label": "Ground Truth/404.png"
+    },
+    {
+      "id": "405",
+      "image": "Original/405.png",
+      "label": "Ground Truth/405.png"
+    },
+    {
+      "id": "406",
+      "image": "Original/406.png",
+      "label": "Ground Truth/406.png"
+    },
+    {
+      "id": "407",
+      "image": "Original/407.png",
+      "label": "Ground Truth/407.png"
+    },
+    {
+      "id": "408",
+      "image": "Original/408.png",
+      "label": "Ground Truth/408.png"
+    },
+    {
+      "id": "409",
+      "image": "Original/409.png",
+      "label": "Ground Truth/409.png"
+    },
+    {
+      "id": "41",
+      "image": "Original/41.png",
+      "label": "Ground Truth/41.png"
+    },
+    {
+      "id": "410",
+      "image": "Original/410.png",
+      "label": "Ground Truth/410.png"
+    },
+    {
+      "id": "411",
+      "image": "Original/411.png",
+      "label": "Ground Truth/411.png"
+    },
+    {
+      "id": "412",
+      "image": "Original/412.png",
+      "label": "Ground Truth/412.png"
+    },
+    {
+      "id": "413",
+      "image": "Original/413.png",
+      "label": "Ground Truth/413.png"
+    },
+    {
+      "id": "414",
+      "image": "Original/414.png",
+      "label": "Ground Truth/414.png"
+    },
+    {
+      "id": "415",
+      "image": "Original/415.png",
+      "label": "Ground Truth/415.png"
+    },
+    {
+      "id": "416",
+      "image": "Original/416.png",
+      "label": "Ground Truth/416.png"
+    },
+    {
+      "id": "417",
+      "image": "Original/417.png",
+      "label": "Ground Truth/417.png"
+    },
+    {
+      "id": "418",
+      "image": "Original/418.png",
+      "label": "Ground Truth/418.png"
+    },
+    {
+      "id": "419",
+      "image": "Original/419.png",
+      "label": "Ground Truth/419.png"
+    },
+    {
+      "id": "42",
+      "image": "Original/42.png",
+      "label": "Ground Truth/42.png"
+    },
+    {
+      "id": "420",
+      "image": "Original/420.png",
+      "label": "Ground Truth/420.png"
+    },
+    {
+      "id": "421",
+      "image": "Original/421.png",
+      "label": "Ground Truth/421.png"
+    },
+    {
+      "id": "422",
+      "image": "Original/422.png",
+      "label": "Ground Truth/422.png"
+    },
+    {
+      "id": "423",
+      "image": "Original/423.png",
+      "label": "Ground Truth/423.png"
+    },
+    {
+      "id": "424",
+      "image": "Original/424.png",
+      "label": "Ground Truth/424.png"
+    },
+    {
+      "id": "425",
+      "image": "Original/425.png",
+      "label": "Ground Truth/425.png"
+    },
+    {
+      "id": "426",
+      "image": "Original/426.png",
+      "label": "Ground Truth/426.png"
+    },
+    {
+      "id": "427",
+      "image": "Original/427.png",
+      "label": "Ground Truth/427.png"
+    },
+    {
+      "id": "428",
+      "image": "Original/428.png",
+      "label": "Ground Truth/428.png"
+    },
+    {
+      "id": "429",
+      "image": "Original/429.png",
+      "label": "Ground Truth/429.png"
+    },
+    {
+      "id": "43",
+      "image": "Original/43.png",
+      "label": "Ground Truth/43.png"
+    },
+    {
+      "id": "430",
+      "image": "Original/430.png",
+      "label": "Ground Truth/430.png"
+    },
+    {
+      "id": "431",
+      "image": "Original/431.png",
+      "label": "Ground Truth/431.png"
+    },
+    {
+      "id": "432",
+      "image": "Original/432.png",
+      "label": "Ground Truth/432.png"
+    },
+    {
+      "id": "433",
+      "image": "Original/433.png",
+      "label": "Ground Truth/433.png"
+    },
+    {
+      "id": "434",
+      "image": "Original/434.png",
+      "label": "Ground Truth/434.png"
+    },
+    {
+      "id": "435",
+      "image": "Original/435.png",
+      "label": "Ground Truth/435.png"
+    },
+    {
+      "id": "436",
+      "image": "Original/436.png",
+      "label": "Ground Truth/436.png"
+    },
+    {
+      "id": "437",
+      "image": "Original/437.png",
+      "label": "Ground Truth/437.png"
+    },
+    {
+      "id": "438",
+      "image": "Original/438.png",
+      "label": "Ground Truth/438.png"
+    },
+    {
+      "id": "439",
+      "image": "Original/439.png",
+      "label": "Ground Truth/439.png"
+    },
+    {
+      "id": "44",
+      "image": "Original/44.png",
+      "label": "Ground Truth/44.png"
+    },
+    {
+      "id": "440",
+      "image": "Original/440.png",
+      "label": "Ground Truth/440.png"
+    },
+    {
+      "id": "441",
+      "image": "Original/441.png",
+      "label": "Ground Truth/441.png"
+    },
+    {
+      "id": "442",
+      "image": "Original/442.png",
+      "label": "Ground Truth/442.png"
+    },
+    {
+      "id": "443",
+      "image": "Original/443.png",
+      "label": "Ground Truth/443.png"
+    },
+    {
+      "id": "444",
+      "image": "Original/444.png",
+      "label": "Ground Truth/444.png"
+    },
+    {
+      "id": "445",
+      "image": "Original/445.png",
+      "label": "Ground Truth/445.png"
+    },
+    {
+      "id": "446",
+      "image": "Original/446.png",
+      "label": "Ground Truth/446.png"
+    },
+    {
+      "id": "447",
+      "image": "Original/447.png",
+      "label": "Ground Truth/447.png"
+    },
+    {
+      "id": "448",
+      "image": "Original/448.png",
+      "label": "Ground Truth/448.png"
+    },
+    {
+      "id": "449",
+      "image": "Original/449.png",
+      "label": "Ground Truth/449.png"
+    },
+    {
+      "id": "45",
+      "image": "Original/45.png",
+      "label": "Ground Truth/45.png"
+    },
+    {
+      "id": "450",
+      "image": "Original/450.png",
+      "label": "Ground Truth/450.png"
+    },
+    {
+      "id": "451",
+      "image": "Original/451.png",
+      "label": "Ground Truth/451.png"
+    },
+    {
+      "id": "452",
+      "image": "Original/452.png",
+      "label": "Ground Truth/452.png"
+    },
+    {
+      "id": "453",
+      "image": "Original/453.png",
+      "label": "Ground Truth/453.png"
+    },
+    {
+      "id": "454",
+      "image": "Original/454.png",
+      "label": "Ground Truth/454.png"
+    },
+    {
+      "id": "455",
+      "image": "Original/455.png",
+      "label": "Ground Truth/455.png"
+    },
+    {
+      "id": "456",
+      "image": "Original/456.png",
+      "label": "Ground Truth/456.png"
+    },
+    {
+      "id": "457",
+      "image": "Original/457.png",
+      "label": "Ground Truth/457.png"
+    },
+    {
+      "id": "458",
+      "image": "Original/458.png",
+      "label": "Ground Truth/458.png"
+    },
+    {
+      "id": "459",
+      "image": "Original/459.png",
+      "label": "Ground Truth/459.png"
+    },
+    {
+      "id": "46",
+      "image": "Original/46.png",
+      "label": "Ground Truth/46.png"
+    },
+    {
+      "id": "460",
+      "image": "Original/460.png",
+      "label": "Ground Truth/460.png"
+    },
+    {
+      "id": "461",
+      "image": "Original/461.png",
+      "label": "Ground Truth/461.png"
+    },
+    {
+      "id": "462",
+      "image": "Original/462.png",
+      "label": "Ground Truth/462.png"
+    },
+    {
+      "id": "463",
+      "image": "Original/463.png",
+      "label": "Ground Truth/463.png"
+    },
+    {
+      "id": "464",
+      "image": "Original/464.png",
+      "label": "Ground Truth/464.png"
+    },
+    {
+      "id": "465",
+      "image": "Original/465.png",
+      "label": "Ground Truth/465.png"
+    },
+    {
+      "id": "466",
+      "image": "Original/466.png",
+      "label": "Ground Truth/466.png"
+    },
+    {
+      "id": "467",
+      "image": "Original/467.png",
+      "label": "Ground Truth/467.png"
+    },
+    {
+      "id": "468",
+      "image": "Original/468.png",
+      "label": "Ground Truth/468.png"
+    },
+    {
+      "id": "469",
+      "image": "Original/469.png",
+      "label": "Ground Truth/469.png"
+    },
+    {
+      "id": "47",
+      "image": "Original/47.png",
+      "label": "Ground Truth/47.png"
+    },
+    {
+      "id": "470",
+      "image": "Original/470.png",
+      "label": "Ground Truth/470.png"
+    },
+    {
+      "id": "471",
+      "image": "Original/471.png",
+      "label": "Ground Truth/471.png"
+    },
+    {
+      "id": "472",
+      "image": "Original/472.png",
+      "label": "Ground Truth/472.png"
+    },
+    {
+      "id": "473",
+      "image": "Original/473.png",
+      "label": "Ground Truth/473.png"
+    },
+    {
+      "id": "474",
+      "image": "Original/474.png",
+      "label": "Ground Truth/474.png"
+    },
+    {
+      "id": "475",
+      "image": "Original/475.png",
+      "label": "Ground Truth/475.png"
+    },
+    {
+      "id": "476",
+      "image": "Original/476.png",
+      "label": "Ground Truth/476.png"
+    },
+    {
+      "id": "477",
+      "image": "Original/477.png",
+      "label": "Ground Truth/477.png"
+    },
+    {
+      "id": "478",
+      "image": "Original/478.png",
+      "label": "Ground Truth/478.png"
+    },
+    {
+      "id": "479",
+      "image": "Original/479.png",
+      "label": "Ground Truth/479.png"
+    },
+    {
+      "id": "48",
+      "image": "Original/48.png",
+      "label": "Ground Truth/48.png"
+    },
+    {
+      "id": "480",
+      "image": "Original/480.png",
+      "label": "Ground Truth/480.png"
+    },
+    {
+      "id": "481",
+      "image": "Original/481.png",
+      "label": "Ground Truth/481.png"
+    },
+    {
+      "id": "482",
+      "image": "Original/482.png",
+      "label": "Ground Truth/482.png"
+    },
+    {
+      "id": "483",
+      "image": "Original/483.png",
+      "label": "Ground Truth/483.png"
+    },
+    {
+      "id": "484",
+      "image": "Original/484.png",
+      "label": "Ground Truth/484.png"
+    },
+    {
+      "id": "485",
+      "image": "Original/485.png",
+      "label": "Ground Truth/485.png"
+    },
+    {
+      "id": "486",
+      "image": "Original/486.png",
+      "label": "Ground Truth/486.png"
+    },
+    {
+      "id": "487",
+      "image": "Original/487.png",
+      "label": "Ground Truth/487.png"
+    },
+    {
+      "id": "488",
+      "image": "Original/488.png",
+      "label": "Ground Truth/488.png"
+    },
+    {
+      "id": "489",
+      "image": "Original/489.png",
+      "label": "Ground Truth/489.png"
+    },
+    {
+      "id": "49",
+      "image": "Original/49.png",
+      "label": "Ground Truth/49.png"
+    },
+    {
+      "id": "490",
+      "image": "Original/490.png",
+      "label": "Ground Truth/490.png"
+    },
+    {
+      "id": "491",
+      "image": "Original/491.png",
+      "label": "Ground Truth/491.png"
+    },
+    {
+      "id": "492",
+      "image": "Original/492.png",
+      "label": "Ground Truth/492.png"
+    },
+    {
+      "id": "493",
+      "image": "Original/493.png",
+      "label": "Ground Truth/493.png"
+    },
+    {
+      "id": "494",
+      "image": "Original/494.png",
+      "label": "Ground Truth/494.png"
+    },
+    {
+      "id": "495",
+      "image": "Original/495.png",
+      "label": "Ground Truth/495.png"
+    },
+    {
+      "id": "496",
+      "image": "Original/496.png",
+      "label": "Ground Truth/496.png"
+    },
+    {
+      "id": "497",
+      "image": "Original/497.png",
+      "label": "Ground Truth/497.png"
+    },
+    {
+      "id": "498",
+      "image": "Original/498.png",
+      "label": "Ground Truth/498.png"
+    },
+    {
+      "id": "499",
+      "image": "Original/499.png",
+      "label": "Ground Truth/499.png"
+    },
+    {
+      "id": "5",
+      "image": "Original/5.png",
+      "label": "Ground Truth/5.png"
+    },
+    {
+      "id": "50",
+      "image": "Original/50.png",
+      "label": "Ground Truth/50.png"
+    },
+    {
+      "id": "500",
+      "image": "Original/500.png",
+      "label": "Ground Truth/500.png"
+    },
+    {
+      "id": "501",
+      "image": "Original/501.png",
+      "label": "Ground Truth/501.png"
+    },
+    {
+      "id": "502",
+      "image": "Original/502.png",
+      "label": "Ground Truth/502.png"
+    },
+    {
+      "id": "503",
+      "image": "Original/503.png",
+      "label": "Ground Truth/503.png"
+    },
+    {
+      "id": "504",
+      "image": "Original/504.png",
+      "label": "Ground Truth/504.png"
+    },
+    {
+      "id": "505",
+      "image": "Original/505.png",
+      "label": "Ground Truth/505.png"
+    },
+    {
+      "id": "506",
+      "image": "Original/506.png",
+      "label": "Ground Truth/506.png"
+    },
+    {
+      "id": "507",
+      "image": "Original/507.png",
+      "label": "Ground Truth/507.png"
+    },
+    {
+      "id": "508",
+      "image": "Original/508.png",
+      "label": "Ground Truth/508.png"
+    },
+    {
+      "id": "509",
+      "image": "Original/509.png",
+      "label": "Ground Truth/509.png"
+    },
+    {
+      "id": "51",
+      "image": "Original/51.png",
+      "label": "Ground Truth/51.png"
+    },
+    {
+      "id": "510",
+      "image": "Original/510.png",
+      "label": "Ground Truth/510.png"
+    },
+    {
+      "id": "511",
+      "image": "Original/511.png",
+      "label": "Ground Truth/511.png"
+    },
+    {
+      "id": "512",
+      "image": "Original/512.png",
+      "label": "Ground Truth/512.png"
+    },
+    {
+      "id": "513",
+      "image": "Original/513.png",
+      "label": "Ground Truth/513.png"
+    },
+    {
+      "id": "514",
+      "image": "Original/514.png",
+      "label": "Ground Truth/514.png"
+    },
+    {
+      "id": "515",
+      "image": "Original/515.png",
+      "label": "Ground Truth/515.png"
+    },
+    {
+      "id": "516",
+      "image": "Original/516.png",
+      "label": "Ground Truth/516.png"
+    },
+    {
+      "id": "517",
+      "image": "Original/517.png",
+      "label": "Ground Truth/517.png"
+    },
+    {
+      "id": "518",
+      "image": "Original/518.png",
+      "label": "Ground Truth/518.png"
+    },
+    {
+      "id": "519",
+      "image": "Original/519.png",
+      "label": "Ground Truth/519.png"
+    },
+    {
+      "id": "52",
+      "image": "Original/52.png",
+      "label": "Ground Truth/52.png"
+    },
+    {
+      "id": "520",
+      "image": "Original/520.png",
+      "label": "Ground Truth/520.png"
+    },
+    {
+      "id": "521",
+      "image": "Original/521.png",
+      "label": "Ground Truth/521.png"
+    },
+    {
+      "id": "522",
+      "image": "Original/522.png",
+      "label": "Ground Truth/522.png"
+    },
+    {
+      "id": "523",
+      "image": "Original/523.png",
+      "label": "Ground Truth/523.png"
+    },
+    {
+      "id": "524",
+      "image": "Original/524.png",
+      "label": "Ground Truth/524.png"
+    },
+    {
+      "id": "525",
+      "image": "Original/525.png",
+      "label": "Ground Truth/525.png"
+    },
+    {
+      "id": "526",
+      "image": "Original/526.png",
+      "label": "Ground Truth/526.png"
+    },
+    {
+      "id": "527",
+      "image": "Original/527.png",
+      "label": "Ground Truth/527.png"
+    },
+    {
+      "id": "528",
+      "image": "Original/528.png",
+      "label": "Ground Truth/528.png"
+    },
+    {
+      "id": "529",
+      "image": "Original/529.png",
+      "label": "Ground Truth/529.png"
+    },
+    {
+      "id": "53",
+      "image": "Original/53.png",
+      "label": "Ground Truth/53.png"
+    },
+    {
+      "id": "530",
+      "image": "Original/530.png",
+      "label": "Ground Truth/530.png"
+    },
+    {
+      "id": "531",
+      "image": "Original/531.png",
+      "label": "Ground Truth/531.png"
+    },
+    {
+      "id": "532",
+      "image": "Original/532.png",
+      "label": "Ground Truth/532.png"
+    },
+    {
+      "id": "533",
+      "image": "Original/533.png",
+      "label": "Ground Truth/533.png"
+    },
+    {
+      "id": "534",
+      "image": "Original/534.png",
+      "label": "Ground Truth/534.png"
+    },
+    {
+      "id": "535",
+      "image": "Original/535.png",
+      "label": "Ground Truth/535.png"
+    },
+    {
+      "id": "536",
+      "image": "Original/536.png",
+      "label": "Ground Truth/536.png"
+    },
+    {
+      "id": "537",
+      "image": "Original/537.png",
+      "label": "Ground Truth/537.png"
+    },
+    {
+      "id": "538",
+      "image": "Original/538.png",
+      "label": "Ground Truth/538.png"
+    },
+    {
+      "id": "539",
+      "image": "Original/539.png",
+      "label": "Ground Truth/539.png"
+    },
+    {
+      "id": "54",
+      "image": "Original/54.png",
+      "label": "Ground Truth/54.png"
+    },
+    {
+      "id": "540",
+      "image": "Original/540.png",
+      "label": "Ground Truth/540.png"
+    },
+    {
+      "id": "541",
+      "image": "Original/541.png",
+      "label": "Ground Truth/541.png"
+    },
+    {
+      "id": "542",
+      "image": "Original/542.png",
+      "label": "Ground Truth/542.png"
+    },
+    {
+      "id": "543",
+      "image": "Original/543.png",
+      "label": "Ground Truth/543.png"
+    },
+    {
+      "id": "544",
+      "image": "Original/544.png",
+      "label": "Ground Truth/544.png"
+    },
+    {
+      "id": "545",
+      "image": "Original/545.png",
+      "label": "Ground Truth/545.png"
+    },
+    {
+      "id": "546",
+      "image": "Original/546.png",
+      "label": "Ground Truth/546.png"
+    },
+    {
+      "id": "547",
+      "image": "Original/547.png",
+      "label": "Ground Truth/547.png"
+    },
+    {
+      "id": "548",
+      "image": "Original/548.png",
+      "label": "Ground Truth/548.png"
+    },
+    {
+      "id": "549",
+      "image": "Original/549.png",
+      "label": "Ground Truth/549.png"
+    },
+    {
+      "id": "55",
+      "image": "Original/55.png",
+      "label": "Ground Truth/55.png"
+    },
+    {
+      "id": "550",
+      "image": "Original/550.png",
+      "label": "Ground Truth/550.png"
+    },
+    {
+      "id": "551",
+      "image": "Original/551.png",
+      "label": "Ground Truth/551.png"
+    },
+    {
+      "id": "552",
+      "image": "Original/552.png",
+      "label": "Ground Truth/552.png"
+    },
+    {
+      "id": "553",
+      "image": "Original/553.png",
+      "label": "Ground Truth/553.png"
+    },
+    {
+      "id": "554",
+      "image": "Original/554.png",
+      "label": "Ground Truth/554.png"
+    },
+    {
+      "id": "555",
+      "image": "Original/555.png",
+      "label": "Ground Truth/555.png"
+    },
+    {
+      "id": "556",
+      "image": "Original/556.png",
+      "label": "Ground Truth/556.png"
+    },
+    {
+      "id": "557",
+      "image": "Original/557.png",
+      "label": "Ground Truth/557.png"
+    },
+    {
+      "id": "558",
+      "image": "Original/558.png",
+      "label": "Ground Truth/558.png"
+    },
+    {
+      "id": "559",
+      "image": "Original/559.png",
+      "label": "Ground Truth/559.png"
+    },
+    {
+      "id": "56",
+      "image": "Original/56.png",
+      "label": "Ground Truth/56.png"
+    },
+    {
+      "id": "560",
+      "image": "Original/560.png",
+      "label": "Ground Truth/560.png"
+    },
+    {
+      "id": "561",
+      "image": "Original/561.png",
+      "label": "Ground Truth/561.png"
+    },
+    {
+      "id": "562",
+      "image": "Original/562.png",
+      "label": "Ground Truth/562.png"
+    },
+    {
+      "id": "563",
+      "image": "Original/563.png",
+      "label": "Ground Truth/563.png"
+    },
+    {
+      "id": "564",
+      "image": "Original/564.png",
+      "label": "Ground Truth/564.png"
+    },
+    {
+      "id": "565",
+      "image": "Original/565.png",
+      "label": "Ground Truth/565.png"
+    },
+    {
+      "id": "566",
+      "image": "Original/566.png",
+      "label": "Ground Truth/566.png"
+    },
+    {
+      "id": "567",
+      "image": "Original/567.png",
+      "label": "Ground Truth/567.png"
+    },
+    {
+      "id": "568",
+      "image": "Original/568.png",
+      "label": "Ground Truth/568.png"
+    },
+    {
+      "id": "569",
+      "image": "Original/569.png",
+      "label": "Ground Truth/569.png"
+    },
+    {
+      "id": "57",
+      "image": "Original/57.png",
+      "label": "Ground Truth/57.png"
+    },
+    {
+      "id": "570",
+      "image": "Original/570.png",
+      "label": "Ground Truth/570.png"
+    },
+    {
+      "id": "571",
+      "image": "Original/571.png",
+      "label": "Ground Truth/571.png"
+    },
+    {
+      "id": "572",
+      "image": "Original/572.png",
+      "label": "Ground Truth/572.png"
+    },
+    {
+      "id": "573",
+      "image": "Original/573.png",
+      "label": "Ground Truth/573.png"
+    },
+    {
+      "id": "574",
+      "image": "Original/574.png",
+      "label": "Ground Truth/574.png"
+    },
+    {
+      "id": "575",
+      "image": "Original/575.png",
+      "label": "Ground Truth/575.png"
+    },
+    {
+      "id": "576",
+      "image": "Original/576.png",
+      "label": "Ground Truth/576.png"
+    },
+    {
+      "id": "577",
+      "image": "Original/577.png",
+      "label": "Ground Truth/577.png"
+    },
+    {
+      "id": "578",
+      "image": "Original/578.png",
+      "label": "Ground Truth/578.png"
+    },
+    {
+      "id": "579",
+      "image": "Original/579.png",
+      "label": "Ground Truth/579.png"
+    },
+    {
+      "id": "58",
+      "image": "Original/58.png",
+      "label": "Ground Truth/58.png"
+    },
+    {
+      "id": "580",
+      "image": "Original/580.png",
+      "label": "Ground Truth/580.png"
+    },
+    {
+      "id": "581",
+      "image": "Original/581.png",
+      "label": "Ground Truth/581.png"
+    },
+    {
+      "id": "582",
+      "image": "Original/582.png",
+      "label": "Ground Truth/582.png"
+    },
+    {
+      "id": "583",
+      "image": "Original/583.png",
+      "label": "Ground Truth/583.png"
+    },
+    {
+      "id": "584",
+      "image": "Original/584.png",
+      "label": "Ground Truth/584.png"
+    },
+    {
+      "id": "585",
+      "image": "Original/585.png",
+      "label": "Ground Truth/585.png"
+    },
+    {
+      "id": "586",
+      "image": "Original/586.png",
+      "label": "Ground Truth/586.png"
+    },
+    {
+      "id": "587",
+      "image": "Original/587.png",
+      "label": "Ground Truth/587.png"
+    },
+    {
+      "id": "588",
+      "image": "Original/588.png",
+      "label": "Ground Truth/588.png"
+    },
+    {
+      "id": "589",
+      "image": "Original/589.png",
+      "label": "Ground Truth/589.png"
+    },
+    {
+      "id": "59",
+      "image": "Original/59.png",
+      "label": "Ground Truth/59.png"
+    },
+    {
+      "id": "590",
+      "image": "Original/590.png",
+      "label": "Ground Truth/590.png"
+    },
+    {
+      "id": "591",
+      "image": "Original/591.png",
+      "label": "Ground Truth/591.png"
+    },
+    {
+      "id": "592",
+      "image": "Original/592.png",
+      "label": "Ground Truth/592.png"
+    },
+    {
+      "id": "593",
+      "image": "Original/593.png",
+      "label": "Ground Truth/593.png"
+    },
+    {
+      "id": "594",
+      "image": "Original/594.png",
+      "label": "Ground Truth/594.png"
+    },
+    {
+      "id": "595",
+      "image": "Original/595.png",
+      "label": "Ground Truth/595.png"
+    },
+    {
+      "id": "596",
+      "image": "Original/596.png",
+      "label": "Ground Truth/596.png"
+    },
+    {
+      "id": "597",
+      "image": "Original/597.png",
+      "label": "Ground Truth/597.png"
+    },
+    {
+      "id": "598",
+      "image": "Original/598.png",
+      "label": "Ground Truth/598.png"
+    },
+    {
+      "id": "599",
+      "image": "Original/599.png",
+      "label": "Ground Truth/599.png"
+    },
+    {
+      "id": "6",
+      "image": "Original/6.png",
+      "label": "Ground Truth/6.png"
+    },
+    {
+      "id": "60",
+      "image": "Original/60.png",
+      "label": "Ground Truth/60.png"
+    },
+    {
+      "id": "600",
+      "image": "Original/600.png",
+      "label": "Ground Truth/600.png"
+    },
+    {
+      "id": "601",
+      "image": "Original/601.png",
+      "label": "Ground Truth/601.png"
+    },
+    {
+      "id": "602",
+      "image": "Original/602.png",
+      "label": "Ground Truth/602.png"
+    },
+    {
+      "id": "603",
+      "image": "Original/603.png",
+      "label": "Ground Truth/603.png"
+    },
+    {
+      "id": "604",
+      "image": "Original/604.png",
+      "label": "Ground Truth/604.png"
+    },
+    {
+      "id": "605",
+      "image": "Original/605.png",
+      "label": "Ground Truth/605.png"
+    },
+    {
+      "id": "606",
+      "image": "Original/606.png",
+      "label": "Ground Truth/606.png"
+    },
+    {
+      "id": "607",
+      "image": "Original/607.png",
+      "label": "Ground Truth/607.png"
+    },
+    {
+      "id": "608",
+      "image": "Original/608.png",
+      "label": "Ground Truth/608.png"
+    },
+    {
+      "id": "609",
+      "image": "Original/609.png",
+      "label": "Ground Truth/609.png"
+    },
+    {
+      "id": "61",
+      "image": "Original/61.png",
+      "label": "Ground Truth/61.png"
+    },
+    {
+      "id": "610",
+      "image": "Original/610.png",
+      "label": "Ground Truth/610.png"
+    },
+    {
+      "id": "611",
+      "image": "Original/611.png",
+      "label": "Ground Truth/611.png"
+    },
+    {
+      "id": "612",
+      "image": "Original/612.png",
+      "label": "Ground Truth/612.png"
+    },
+    {
+      "id": "62",
+      "image": "Original/62.png",
+      "label": "Ground Truth/62.png"
+    },
+    {
+      "id": "63",
+      "image": "Original/63.png",
+      "label": "Ground Truth/63.png"
+    },
+    {
+      "id": "64",
+      "image": "Original/64.png",
+      "label": "Ground Truth/64.png"
+    },
+    {
+      "id": "65",
+      "image": "Original/65.png",
+      "label": "Ground Truth/65.png"
+    },
+    {
+      "id": "66",
+      "image": "Original/66.png",
+      "label": "Ground Truth/66.png"
+    },
+    {
+      "id": "67",
+      "image": "Original/67.png",
+      "label": "Ground Truth/67.png"
+    },
+    {
+      "id": "68",
+      "image": "Original/68.png",
+      "label": "Ground Truth/68.png"
+    },
+    {
+      "id": "69",
+      "image": "Original/69.png",
+      "label": "Ground Truth/69.png"
+    },
+    {
+      "id": "7",
+      "image": "Original/7.png",
+      "label": "Ground Truth/7.png"
+    },
+    {
+      "id": "70",
+      "image": "Original/70.png",
+      "label": "Ground Truth/70.png"
+    },
+    {
+      "id": "71",
+      "image": "Original/71.png",
+      "label": "Ground Truth/71.png"
+    },
+    {
+      "id": "72",
+      "image": "Original/72.png",
+      "label": "Ground Truth/72.png"
+    },
+    {
+      "id": "73",
+      "image": "Original/73.png",
+      "label": "Ground Truth/73.png"
+    },
+    {
+      "id": "74",
+      "image": "Original/74.png",
+      "label": "Ground Truth/74.png"
+    },
+    {
+      "id": "75",
+      "image": "Original/75.png",
+      "label": "Ground Truth/75.png"
+    },
+    {
+      "id": "76",
+      "image": "Original/76.png",
+      "label": "Ground Truth/76.png"
+    },
+    {
+      "id": "77",
+      "image": "Original/77.png",
+      "label": "Ground Truth/77.png"
+    },
+    {
+      "id": "78",
+      "image": "Original/78.png",
+      "label": "Ground Truth/78.png"
+    },
+    {
+      "id": "79",
+      "image": "Original/79.png",
+      "label": "Ground Truth/79.png"
+    },
+    {
+      "id": "8",
+      "image": "Original/8.png",
+      "label": "Ground Truth/8.png"
+    },
+    {
+      "id": "80",
+      "image": "Original/80.png",
+      "label": "Ground Truth/80.png"
+    },
+    {
+      "id": "81",
+      "image": "Original/81.png",
+      "label": "Ground Truth/81.png"
+    },
+    {
+      "id": "82",
+      "image": "Original/82.png",
+      "label": "Ground Truth/82.png"
+    },
+    {
+      "id": "83",
+      "image": "Original/83.png",
+      "label": "Ground Truth/83.png"
+    },
+    {
+      "id": "84",
+      "image": "Original/84.png",
+      "label": "Ground Truth/84.png"
+    },
+    {
+      "id": "85",
+      "image": "Original/85.png",
+      "label": "Ground Truth/85.png"
+    },
+    {
+      "id": "86",
+      "image": "Original/86.png",
+      "label": "Ground Truth/86.png"
+    },
+    {
+      "id": "87",
+      "image": "Original/87.png",
+      "label": "Ground Truth/87.png"
+    },
+    {
+      "id": "88",
+      "image": "Original/88.png",
+      "label": "Ground Truth/88.png"
+    },
+    {
+      "id": "89",
+      "image": "Original/89.png",
+      "label": "Ground Truth/89.png"
+    },
+    {
+      "id": "9",
+      "image": "Original/9.png",
+      "label": "Ground Truth/9.png"
+    },
+    {
+      "id": "90",
+      "image": "Original/90.png",
+      "label": "Ground Truth/90.png"
+    },
+    {
+      "id": "91",
+      "image": "Original/91.png",
+      "label": "Ground Truth/91.png"
+    },
+    {
+      "id": "92",
+      "image": "Original/92.png",
+      "label": "Ground Truth/92.png"
+    },
+    {
+      "id": "93",
+      "image": "Original/93.png",
+      "label": "Ground Truth/93.png"
+    },
+    {
+      "id": "94",
+      "image": "Original/94.png",
+      "label": "Ground Truth/94.png"
+    },
+    {
+      "id": "95",
+      "image": "Original/95.png",
+      "label": "Ground Truth/95.png"
+    },
+    {
+      "id": "96",
+      "image": "Original/96.png",
+      "label": "Ground Truth/96.png"
+    },
+    {
+      "id": "97",
+      "image": "Original/97.png",
+      "label": "Ground Truth/97.png"
+    },
+    {
+      "id": "98",
+      "image": "Original/98.png",
+      "label": "Ground Truth/98.png"
+    },
+    {
+      "id": "99",
+      "image": "Original/99.png",
+      "label": "Ground Truth/99.png"
+    }
+  ]
+}

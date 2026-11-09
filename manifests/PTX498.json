@@ -1,0 +1,2528 @@
+{
+  "name": "PTX498",
+  "description": "PTX-498 v2-fix, binary pneumothorax segmentation",
+  "source": "https://zenodo.org/records/8266529",
+  "channel_names": {
+    "0": "R",
+    "1": "G",
+    "2": "B"
+  },
+  "grayscale_loading": "Existing RGB loader replicates the grayscale channel.",
+  "labels": {
+    "background": 0,
+    "pneumothorax": 1
+  },
+  "num_classes": 2,
+  "file_ending": ".png",
+  "num_samples": 498,
+  "num_patients": null,
+  "patient_information_available": false,
+  "patient_information_note": "No patient mapping in source archive; site and file numbers are not patient IDs.",
+  "split_group_rule": "Exact native image-pixel SHA256; group ID is the smallest sample ID. Groups and folds are preserved after resizing. Not a patient ID.",
+  "preprocessing": {
+    "image": "Native source PNG resized to 256x256 using OpenCV INTER_LINEAR.",
+    "mask": "Source positive pixels mapped to uint8 1; resized using INTER_NEAREST.",
+    "native_size": [
+      1024,
+      1024
+    ],
+    "output_size": [
+      256,
+      256
+    ],
+    "image_resize": "OpenCV INTER_LINEAR",
+    "mask_resize": "OpenCV INTER_NEAREST"
+  },
+  "samples": [
+    {
+      "id": "SiteA_0001",
+      "image": "images/SiteA_0001.png",
+      "label": "masks/SiteA_0001.png"
+    },
+    {
+      "id": "SiteA_0002",
+      "image": "images/SiteA_0002.png",
+      "label": "masks/SiteA_0002.png"
+    },
+    {
+      "id": "SiteA_0003",
+      "image": "images/SiteA_0003.png",
+      "label": "masks/SiteA_0003.png"
+    },
+    {
+      "id": "SiteA_0004",
+      "image": "images/SiteA_0004.png",
+      "label": "masks/SiteA_0004.png"
+    },
+    {
+      "id": "SiteA_0005",
+      "image": "images/SiteA_0005.png",
+      "label": "masks/SiteA_0005.png"
+    },
+    {
+      "id": "SiteA_0006",
+      "image": "images/SiteA_0006.png",
+      "label": "masks/SiteA_0006.png"
+    },
+    {
+      "id": "SiteA_0007",
+      "image": "images/SiteA_0007.png",
+      "label": "masks/SiteA_0007.png"
+    },
+    {
+      "id": "SiteA_0008",
+      "image": "images/SiteA_0008.png",
+      "label": "masks/SiteA_0008.png"
+    },
+    {
+      "id": "SiteA_0009",
+      "image": "images/SiteA_0009.png",
+      "label": "masks/SiteA_0009.png"
+    },
+    {
+      "id": "SiteA_0010",
+      "image": "images/SiteA_0010.png",
+      "label": "masks/SiteA_0010.png"
+    },
+    {
+      "id": "SiteA_0011",
+      "image": "images/SiteA_0011.png",
+      "label": "masks/SiteA_0011.png"
+    },
+    {
+      "id": "SiteA_0012",
+      "image": "images/SiteA_0012.png",
+      "label": "masks/SiteA_0012.png"
+    },
+    {
+      "id": "SiteA_0013",
+      "image": "images/SiteA_0013.png",
+      "label": "masks/SiteA_0013.png"
+    },
+    {
+      "id": "SiteA_0014",
+      "image": "images/SiteA_0014.png",
+      "label": "masks/SiteA_0014.png"
+    },
+    {
+      "id": "SiteA_0015",
+      "image": "images/SiteA_0015.png",
+      "label": "masks/SiteA_0015.png"
+    },
+    {
+      "id": "SiteA_0016",
+      "image": "images/SiteA_0016.png",
+      "label": "masks/SiteA_0016.png"
+    },
+    {
+      "id": "SiteA_0017",
+      "image": "images/SiteA_0017.png",
+      "label": "masks/SiteA_0017.png"
+    },
+    {
+      "id": "SiteA_0018",
+      "image": "images/SiteA_0018.png",
+      "label": "masks/SiteA_0018.png"
+    },
+    {
+      "id": "SiteA_0019",
+      "image": "images/SiteA_0019.png",
+      "label": "masks/SiteA_0019.png"
+    },
+    {
+      "id": "SiteA_0020",
+      "image": "images/SiteA_0020.png",
+      "label": "masks/SiteA_0020.png"
+    },
+    {
+      "id": "SiteA_0021",
+      "image": "images/SiteA_0021.png",
+      "label": "masks/SiteA_0021.png"
+    },
+    {
+      "id": "SiteA_0022",
+      "image": "images/SiteA_0022.png",
+      "label": "masks/SiteA_0022.png"
+    },
+    {
+      "id": "SiteA_0023",
+      "image": "images/SiteA_0023.png",
+      "label": "masks/SiteA_0023.png"
+    },
+    {
+      "id": "SiteA_0024",
+      "image": "images/SiteA_0024.png",
+      "label": "masks/SiteA_0024.png"
+    },
+    {
+      "id": "SiteA_0025",
+      "image": "images/SiteA_0025.png",
+      "label": "masks/SiteA_0025.png"
+    },
+    {
+      "id": "SiteA_0026",
+      "image": "images/SiteA_0026.png",
+      "label": "masks/SiteA_0026.png"
+    },
+    {
+      "id": "SiteA_0027",
+      "image": "images/SiteA_0027.png",
+      "label": "masks/SiteA_0027.png"
+    },
+    {
+      "id": "SiteA_0028",
+      "image": "images/SiteA_0028.png",
+      "label": "masks/SiteA_0028.png"
+    },
+    {
+      "id": "SiteA_0029",
+      "image": "images/SiteA_0029.png",
+      "label": "masks/SiteA_0029.png"
+    },
+    {
+      "id": "SiteA_0030",
+      "image": "images/SiteA_0030.png",
+      "label": "masks/SiteA_0030.png"
+    },
+    {
+      "id": "SiteA_0031",
+      "image": "images/SiteA_0031.png",
+      "label": "masks/SiteA_0031.png"
+    },
+    {
+      "id": "SiteA_0032",
+      "image": "images/SiteA_0032.png",
+      "label": "masks/SiteA_0032.png"
+    },
+    {
+      "id": "SiteA_0033",
+      "image": "images/SiteA_0033.png",
+      "label": "masks/SiteA_0033.png"
+    },
+    {
+      "id": "SiteA_0034",
+      "image": "images/SiteA_0034.png",
+      "label": "masks/SiteA_0034.png"
+    },
+    {
+      "id": "SiteA_0035",
+      "image": "images/SiteA_0035.png",
+      "label": "masks/SiteA_0035.png"
+    },
+    {
+      "id": "SiteA_0036",
+      "image": "images/SiteA_0036.png",
+      "label": "masks/SiteA_0036.png"
+    },
+    {
+      "id": "SiteA_0037",
+      "image": "images/SiteA_0037.png",
+      "label": "masks/SiteA_0037.png"
+    },
+    {
+      "id": "SiteA_0038",
+      "image": "images/SiteA_0038.png",
+      "label": "masks/SiteA_0038.png"
+    },
+    {
+      "id": "SiteA_0039",
+      "image": "images/SiteA_0039.png",
+      "label": "masks/SiteA_0039.png"
+    },
+    {
+      "id": "SiteA_0040",
+      "image": "images/SiteA_0040.png",
+      "label": "masks/SiteA_0040.png"
+    },
+    {
+      "id": "SiteA_0041",
+      "image": "images/SiteA_0041.png",
+      "label": "masks/SiteA_0041.png"
+    },
+    {
+      "id": "SiteA_0042",
+      "image": "images/SiteA_0042.png",
+      "label": "masks/SiteA_0042.png"
+    },
+    {
+      "id": "SiteA_0043",
+      "image": "images/SiteA_0043.png",
+      "label": "masks/SiteA_0043.png"
+    },
+    {
+      "id": "SiteA_0044",
+      "image": "images/SiteA_0044.png",
+      "label": "masks/SiteA_0044.png"
+    },
+    {
+      "id": "SiteA_0045",
+      "image": "images/SiteA_0045.png",
+      "label": "masks/SiteA_0045.png"
+    },
+    {
+      "id": "SiteA_0046",
+      "image": "images/SiteA_0046.png",
+      "label": "masks/SiteA_0046.png"
+    },
+    {
+      "id": "SiteA_0047",
+      "image": "images/SiteA_0047.png",
+      "label": "masks/SiteA_0047.png"
+    },
+    {
+      "id": "SiteA_0048",
+      "image": "images/SiteA_0048.png",
+      "label": "masks/SiteA_0048.png"
+    },
+    {
+      "id": "SiteA_0049",
+      "image": "images/SiteA_0049.png",
+      "label": "masks/SiteA_0049.png"
+    },
+    {
+      "id": "SiteA_0050",
+      "image": "images/SiteA_0050.png",
+      "label": "masks/SiteA_0050.png"
+    },
+    {
+      "id": "SiteA_0051",
+      "image": "images/SiteA_0051.png",
+      "label": "masks/SiteA_0051.png"
+    },
+    {
+      "id": "SiteA_0052",
+      "image": "images/SiteA_0052.png",
+      "label": "masks/SiteA_0052.png"
+    },
+    {
+      "id": "SiteA_0053",
+      "image": "images/SiteA_0053.png",
+      "label": "masks/SiteA_0053.png"
+    },
+    {
+      "id": "SiteA_0054",
+      "image": "images/SiteA_0054.png",
+      "label": "masks/SiteA_0054.png"
+    },
+    {
+      "id": "SiteA_0055",
+      "image": "images/SiteA_0055.png",
+      "label": "masks/SiteA_0055.png"
+    },
+    {
+      "id": "SiteA_0056",
+      "image": "images/SiteA_0056.png",
+      "label": "masks/SiteA_0056.png"
+    },
+    {
+      "id": "SiteA_0057",
+      "image": "images/SiteA_0057.png",
+      "label": "masks/SiteA_0057.png"
+    },
+    {
+      "id": "SiteA_0058",
+      "image": "images/SiteA_0058.png",
+      "label": "masks/SiteA_0058.png"
+    },
+    {
+      "id": "SiteA_0059",
+      "image": "images/SiteA_0059.png",
+      "label": "masks/SiteA_0059.png"
+    },
+    {
+      "id": "SiteA_0060",
+      "image": "images/SiteA_0060.png",
+      "label": "masks/SiteA_0060.png"
+    },
+    {
+      "id": "SiteA_0061",
+      "image": "images/SiteA_0061.png",
+      "label": "masks/SiteA_0061.png"
+    },
+    {
+      "id": "SiteA_0062",
+      "image": "images/SiteA_0062.png",
+      "label": "masks/SiteA_0062.png"
+    },
+    {
+      "id": "SiteA_0063",
+      "image": "images/SiteA_0063.png",
+      "label": "masks/SiteA_0063.png"
+    },
+    {
+      "id": "SiteA_0064",
+      "image": "images/SiteA_0064.png",
+      "label": "masks/SiteA_0064.png"
+    },
+    {
+      "id": "SiteA_0065",
+      "image": "images/SiteA_0065.png",
+      "label": "masks/SiteA_0065.png"
+    },
+    {
+      "id": "SiteA_0066",
+      "image": "images/SiteA_0066.png",
+      "label": "masks/SiteA_0066.png"
+    },
+    {
+      "id": "SiteA_0067",
+      "image": "images/SiteA_0067.png",
+      "label": "masks/SiteA_0067.png"
+    },
+    {
+      "id": "SiteA_0068",
+      "image": "images/SiteA_0068.png",
+      "label": "masks/SiteA_0068.png"
+    },
+    {
+      "id": "SiteA_0069",
+      "image": "images/SiteA_0069.png",
+      "label": "masks/SiteA_0069.png"
+    },
+    {
+      "id": "SiteA_0070",
+      "image": "images/SiteA_0070.png",
+      "label": "masks/SiteA_0070.png"
+    },
+    {
+      "id": "SiteA_0071",
+      "image": "images/SiteA_0071.png",
+      "label": "masks/SiteA_0071.png"
+    },
+    {
+      "id": "SiteA_0072",
+      "image": "images/SiteA_0072.png",
+      "label": "masks/SiteA_0072.png"
+    },
+    {
+      "id": "SiteA_0073",
+      "image": "images/SiteA_0073.png",
+      "label": "masks/SiteA_0073.png"
+    },
+    {
+      "id": "SiteA_0074",
+      "image": "images/SiteA_0074.png",
+      "label": "masks/SiteA_0074.png"
+    },
+    {
+      "id": "SiteA_0075",
+      "image": "images/SiteA_0075.png",
+      "label": "masks/SiteA_0075.png"
+    },
+    {
+      "id": "SiteA_0076",
+      "image": "images/SiteA_0076.png",
+      "label": "masks/SiteA_0076.png"
+    },
+    {
+      "id": "SiteA_0077",
+      "image": "images/SiteA_0077.png",
+      "label": "masks/SiteA_0077.png"
+    },
+    {
+      "id": "SiteA_0078",
+      "image": "images/SiteA_0078.png",
+      "label": "masks/SiteA_0078.png"
+    },
+    {
+      "id": "SiteA_0079",
+      "image": "images/SiteA_0079.png",
+      "label": "masks/SiteA_0079.png"
+    },
+    {
+      "id": "SiteA_0080",
+      "image": "images/SiteA_0080.png",
+      "label": "masks/SiteA_0080.png"
+    },
+    {
+      "id": "SiteA_0081",
+      "image": "images/SiteA_0081.png",
+      "label": "masks/SiteA_0081.png"
+    },
+    {
+      "id": "SiteA_0082",
+      "image": "images/SiteA_0082.png",
+      "label": "masks/SiteA_0082.png"
+    },
+    {
+      "id": "SiteA_0083",
+      "image": "images/SiteA_0083.png",
+      "label": "masks/SiteA_0083.png"
+    },
+    {
+      "id": "SiteA_0084",
+      "image": "images/SiteA_0084.png",
+      "label": "masks/SiteA_0084.png"
+    },
+    {
+      "id": "SiteA_0085",
+      "image": "images/SiteA_0085.png",
+      "label": "masks/SiteA_0085.png"
+    },
+    {
+      "id": "SiteA_0086",
+      "image": "images/SiteA_0086.png",
+      "label": "masks/SiteA_0086.png"
+    },
+    {
+      "id": "SiteA_0087",
+      "image": "images/SiteA_0087.png",
+      "label": "masks/SiteA_0087.png"
+    },
+    {
+      "id": "SiteA_0088",
+      "image": "images/SiteA_0088.png",
+      "label": "masks/SiteA_0088.png"
+    },
+    {
+      "id": "SiteA_0089",
+      "image": "images/SiteA_0089.png",
+      "label": "masks/SiteA_0089.png"
+    },
+    {
+      "id": "SiteA_0090",
+      "image": "images/SiteA_0090.png",
+      "label": "masks/SiteA_0090.png"
+    },
+    {
+      "id": "SiteA_0091",
+      "image": "images/SiteA_0091.png",
+      "label": "masks/SiteA_0091.png"
+    },
+    {
+      "id": "SiteA_0092",
+      "image": "images/SiteA_0092.png",
+      "label": "masks/SiteA_0092.png"
+    },
+    {
+      "id": "SiteA_0093",
+      "image": "images/SiteA_0093.png",
+      "label": "masks/SiteA_0093.png"
+    },
+    {
+      "id": "SiteA_0094",
+      "image": "images/SiteA_0094.png",
+      "label": "masks/SiteA_0094.png"
+    },
+    {
+      "id": "SiteA_0095",
+      "image": "images/SiteA_0095.png",
+      "label": "masks/SiteA_0095.png"
+    },
+    {
+      "id": "SiteA_0096",
+      "image": "images/SiteA_0096.png",
+      "label": "masks/SiteA_0096.png"
+    },
+    {
+      "id": "SiteA_0097",
+      "image": "images/SiteA_0097.png",
+      "label": "masks/SiteA_0097.png"
+    },
+    {
+      "id": "SiteA_0098",
+      "image": "images/SiteA_0098.png",
+      "label": "masks/SiteA_0098.png"
+    },
+    {
+      "id": "SiteA_0099",
+      "image": "images/SiteA_0099.png",
+      "label": "masks/SiteA_0099.png"
+    },
+    {
+      "id": "SiteA_0100",
+      "image": "images/SiteA_0100.png",
+      "label": "masks/SiteA_0100.png"
+    },
+    {
+      "id": "SiteA_0101",
+      "image": "images/SiteA_0101.png",
+      "label": "masks/SiteA_0101.png"
+    },
+    {
+      "id": "SiteA_0102",
+      "image": "images/SiteA_0102.png",
+      "label": "masks/SiteA_0102.png"
+    },
+    {
+      "id": "SiteA_0103",
+      "image": "images/SiteA_0103.png",
+      "label": "masks/SiteA_0103.png"
+    },
+    {
+      "id": "SiteA_0104",
+      "image": "images/SiteA_0104.png",
+      "label": "masks/SiteA_0104.png"
+    },
+    {
+      "id": "SiteA_0105",
+      "image": "images/SiteA_0105.png",
+      "label": "masks/SiteA_0105.png"
+    },
+    {
+      "id": "SiteA_0106",
+      "image": "images/SiteA_0106.png",
+      "label": "masks/SiteA_0106.png"
+    },
+    {
+      "id": "SiteA_0107",
+      "image": "images/SiteA_0107.png",
+      "label": "masks/SiteA_0107.png"
+    },
+    {
+      "id": "SiteA_0108",
+      "image": "images/SiteA_0108.png",
+      "label": "masks/SiteA_0108.png"
+    },
+    {
+      "id": "SiteA_0109",
+      "image": "images/SiteA_0109.png",
+      "label": "masks/SiteA_0109.png"
+    },
+    {
+      "id": "SiteA_0110",
+      "image": "images/SiteA_0110.png",
+      "label": "masks/SiteA_0110.png"
+    },
+    {
+      "id": "SiteA_0111",
+      "image": "images/SiteA_0111.png",
+      "label": "masks/SiteA_0111.png"
+    },
+    {
+      "id": "SiteA_0112",
+      "image": "images/SiteA_0112.png",
+      "label": "masks/SiteA_0112.png"
+    },
+    {
+      "id": "SiteA_0113",
+      "image": "images/SiteA_0113.png",
+      "label": "masks/SiteA_0113.png"
+    },
+    {
+      "id": "SiteA_0114",
+      "image": "images/SiteA_0114.png",
+      "label": "masks/SiteA_0114.png"
+    },
+    {
+      "id": "SiteA_0115",
+      "image": "images/SiteA_0115.png",
+      "label": "masks/SiteA_0115.png"
+    },
+    {
+      "id": "SiteA_0116",
+      "image": "images/SiteA_0116.png",
+      "label": "masks/SiteA_0116.png"
+    },
+    {
+      "id": "SiteA_0117",
+      "image": "images/SiteA_0117.png",
+      "label": "masks/SiteA_0117.png"
+    },
+    {
+      "id": "SiteA_0118",
+      "image": "images/SiteA_0118.png",
+      "label": "masks/SiteA_0118.png"
+    },
+    {
+      "id": "SiteA_0119",
+      "image": "images/SiteA_0119.png",
+      "label": "masks/SiteA_0119.png"
+    },
+    {
+      "id": "SiteA_0120",
+      "image": "images/SiteA_0120.png",
+      "label": "masks/SiteA_0120.png"
+    },
+    {
+      "id": "SiteA_0121",
+      "image": "images/SiteA_0121.png",
+      "label": "masks/SiteA_0121.png"
+    },
+    {
+      "id": "SiteA_0122",
+      "image": "images/SiteA_0122.png",
+      "label": "masks/SiteA_0122.png"
+    },
+    {
+      "id": "SiteA_0123",
+      "image": "images/SiteA_0123.png",
+      "label": "masks/SiteA_0123.png"
+    },
+    {
+      "id": "SiteA_0124",
+      "image": "images/SiteA_0124.png",
+      "label": "masks/SiteA_0124.png"
+    },
+    {
+      "id": "SiteA_0125",
+      "image": "images/SiteA_0125.png",
+      "label": "masks/SiteA_0125.png"
+    },
+    {
+      "id": "SiteA_0126",
+      "image": "images/SiteA_0126.png",
+      "label": "masks/SiteA_0126.png"
+    },
+    {
+      "id": "SiteA_0127",
+      "image": "images/SiteA_0127.png",
+      "label": "masks/SiteA_0127.png"
+    },
+    {
+      "id": "SiteA_0128",
+      "image": "images/SiteA_0128.png",
+      "label": "masks/SiteA_0128.png"
+    },
+    {
+      "id": "SiteA_0129",
+      "image": "images/SiteA_0129.png",
+      "label": "masks/SiteA_0129.png"
+    },
+    {
+      "id": "SiteA_0130",
+      "image": "images/SiteA_0130.png",
+      "label": "masks/SiteA_0130.png"
+    },
+    {
+      "id": "SiteA_0131",
+      "image": "images/SiteA_0131.png",
+      "label": "masks/SiteA_0131.png"
+    },
+    {
+      "id": "SiteA_0132",
+      "image": "images/SiteA_0132.png",
+      "label": "masks/SiteA_0132.png"
+    },
+    {
+      "id": "SiteA_0133",
+      "image": "images/SiteA_0133.png",
+      "label": "masks/SiteA_0133.png"
+    },
+    {
+      "id": "SiteA_0134",
+      "image": "images/SiteA_0134.png",
+      "label": "masks/SiteA_0134.png"
+    },
+    {
+      "id": "SiteA_0135",
+      "image": "images/SiteA_0135.png",
+      "label": "masks/SiteA_0135.png"
+    },
+    {
+      "id": "SiteA_0136",
+      "image": "images/SiteA_0136.png",
+      "label": "masks/SiteA_0136.png"
+    },
+    {
+      "id": "SiteA_0137",
+      "image": "images/SiteA_0137.png",
+      "label": "masks/SiteA_0137.png"
+    },
+    {
+      "id": "SiteA_0138",
+      "image": "images/SiteA_0138.png",
+      "label": "masks/SiteA_0138.png"
+    },
+    {
+      "id": "SiteA_0139",
+      "image": "images/SiteA_0139.png",
+      "label": "masks/SiteA_0139.png"
+    },
+    {
+      "id": "SiteA_0140",
+      "image": "images/SiteA_0140.png",
+      "label": "masks/SiteA_0140.png"
+    },
+    {
+      "id": "SiteA_0141",
+      "image": "images/SiteA_0141.png",
+      "label": "masks/SiteA_0141.png"
+    },
+    {
+      "id": "SiteA_0142",
+      "image": "images/SiteA_0142.png",
+      "label": "masks/SiteA_0142.png"
+    },
+    {
+      "id": "SiteA_0143",
+      "image": "images/SiteA_0143.png",
+      "label": "masks/SiteA_0143.png"
+    },
+    {
+      "id": "SiteA_0144",
+      "image": "images/SiteA_0144.png",
+      "label": "masks/SiteA_0144.png"
+    },
+    {
+      "id": "SiteA_0145",
+      "image": "images/SiteA_0145.png",
+      "label": "masks/SiteA_0145.png"
+    },
+    {
+      "id": "SiteA_0146",
+      "image": "images/SiteA_0146.png",
+      "label": "masks/SiteA_0146.png"
+    },
+    {
+      "id": "SiteA_0147",
+      "image": "images/SiteA_0147.png",
+      "label": "masks/SiteA_0147.png"
+    },
+    {
+      "id": "SiteA_0148",
+      "image": "images/SiteA_0148.png",
+      "label": "masks/SiteA_0148.png"
+    },
+    {
+      "id": "SiteA_0149",
+      "image": "images/SiteA_0149.png",
+      "label": "masks/SiteA_0149.png"
+    },
+    {
+      "id": "SiteA_0150",
+      "image": "images/SiteA_0150.png",
+      "label": "masks/SiteA_0150.png"
+    },
+    {
+      "id": "SiteA_0151",
+      "image": "images/SiteA_0151.png",
+      "label": "masks/SiteA_0151.png"
+    },
+    {
+      "id": "SiteA_0152",
+      "image": "images/SiteA_0152.png",
+      "label": "masks/SiteA_0152.png"
+    },
+    {
+      "id": "SiteA_0153",
+      "image": "images/SiteA_0153.png",
+      "label": "masks/SiteA_0153.png"
+    },
+    {
+      "id": "SiteA_0154",
+      "image": "images/SiteA_0154.png",
+      "label": "masks/SiteA_0154.png"
+    },
+    {
+      "id": "SiteA_0155",
+      "image": "images/SiteA_0155.png",
+      "label": "masks/SiteA_0155.png"
+    },
+    {
+      "id": "SiteA_0156",
+      "image": "images/SiteA_0156.png",
+      "label": "masks/SiteA_0156.png"
+    },
+    {
+      "id": "SiteA_0157",
+      "image": "images/SiteA_0157.png",
+      "label": "masks/SiteA_0157.png"
+    },
+    {
+      "id": "SiteA_0158",
+      "image": "images/SiteA_0158.png",
+      "label": "masks/SiteA_0158.png"
+    },
+    {
+      "id": "SiteA_0159",
+      "image": "images/SiteA_0159.png",
+      "label": "masks/SiteA_0159.png"
+    },
+    {
+      "id": "SiteA_0160",
+      "image": "images/SiteA_0160.png",
+      "label": "masks/SiteA_0160.png"
+    },
+    {
+      "id": "SiteA_0161",
+      "image": "images/SiteA_0161.png",
+      "label": "masks/SiteA_0161.png"
+    },
+    {
+      "id": "SiteA_0162",
+      "image": "images/SiteA_0162.png",
+      "label": "masks/SiteA_0162.png"
+    },
+    {
+      "id": "SiteA_0163",
+      "image": "images/SiteA_0163.png",
+      "label": "masks/SiteA_0163.png"
+    },
+    {
+      "id": "SiteA_0164",
+      "image": "images/SiteA_0164.png",
+      "label": "masks/SiteA_0164.png"
+    },
+    {
+      "id": "SiteA_0165",
+      "image": "images/SiteA_0165.png",
+      "label": "masks/SiteA_0165.png"
+    },
+    {
+      "id": "SiteA_0166",
+      "image": "images/SiteA_0166.png",
+      "label": "masks/SiteA_0166.png"
+    },
+    {
+      "id": "SiteA_0167",
+      "image": "images/SiteA_0167.png",
+      "label": "masks/SiteA_0167.png"
+    },
+    {
+      "id": "SiteA_0168",
+      "image": "images/SiteA_0168.png",
+      "label": "masks/SiteA_0168.png"
+    },
+    {
+      "id": "SiteA_0169",
+      "image": "images/SiteA_0169.png",
+      "label": "masks/SiteA_0169.png"
+    },
+    {
+      "id": "SiteA_0170",
+      "image": "images/SiteA_0170.png",
+      "label": "masks/SiteA_0170.png"
+    },
+    {
+      "id": "SiteA_0171",
+      "image": "images/SiteA_0171.png",
+      "label": "masks/SiteA_0171.png"
+    },
+    {
+      "id": "SiteA_0172",
+      "image": "images/SiteA_0172.png",
+      "label": "masks/SiteA_0172.png"
+    },
+    {
+      "id": "SiteA_0173",
+      "image": "images/SiteA_0173.png",
+      "label": "masks/SiteA_0173.png"
+    },
+    {
+      "id": "SiteA_0174",
+      "image": "images/SiteA_0174.png",
+      "label": "masks/SiteA_0174.png"
+    },
+    {
+      "id": "SiteA_0175",
+      "image": "images/SiteA_0175.png",
+      "label": "masks/SiteA_0175.png"
+    },
+    {
+      "id": "SiteA_0176",
+      "image": "images/SiteA_0176.png",
+      "label": "masks/SiteA_0176.png"
+    },
+    {
+      "id": "SiteA_0177",
+      "image": "images/SiteA_0177.png",
+      "label": "masks/SiteA_0177.png"
+    },
+    {
+      "id": "SiteA_0178",
+      "image": "images/SiteA_0178.png",
+      "label": "masks/SiteA_0178.png"
+    },
+    {
+      "id": "SiteA_0179",
+      "image": "images/SiteA_0179.png",
+      "label": "masks/SiteA_0179.png"
+    },
+    {
+      "id": "SiteA_0180",
+      "image": "images/SiteA_0180.png",
+      "label": "masks/SiteA_0180.png"
+    },
+    {
+      "id": "SiteA_0181",
+      "image": "images/SiteA_0181.png",
+      "label": "masks/SiteA_0181.png"
+    },
+    {
+      "id": "SiteA_0182",
+      "image": "images/SiteA_0182.png",
+      "label": "masks/SiteA_0182.png"
+    },
+    {
+      "id": "SiteA_0183",
+      "image": "images/SiteA_0183.png",
+      "label": "masks/SiteA_0183.png"
+    },
+    {
+      "id": "SiteA_0184",
+      "image": "images/SiteA_0184.png",
+      "label": "masks/SiteA_0184.png"
+    },
+    {
+      "id": "SiteA_0185",
+      "image": "images/SiteA_0185.png",
+      "label": "masks/SiteA_0185.png"
+    },
+    {
+      "id": "SiteA_0186",
+      "image": "images/SiteA_0186.png",
+      "label": "masks/SiteA_0186.png"
+    },
+    {
+      "id": "SiteA_0187",
+      "image": "images/SiteA_0187.png",
+      "label": "masks/SiteA_0187.png"
+    },
+    {
+      "id": "SiteA_0188",
+      "image": "images/SiteA_0188.png",
+      "label": "masks/SiteA_0188.png"
+    },
+    {
+      "id": "SiteA_0189",
+      "image": "images/SiteA_0189.png",
+      "label": "masks/SiteA_0189.png"
+    },
+    {
+      "id": "SiteA_0190",
+      "image": "images/SiteA_0190.png",
+      "label": "masks/SiteA_0190.png"
+    },
+    {
+      "id": "SiteA_0191",
+      "image": "images/SiteA_0191.png",
+      "label": "masks/SiteA_0191.png"
+    },
+    {
+      "id": "SiteA_0192",
+      "image": "images/SiteA_0192.png",
+      "label": "masks/SiteA_0192.png"
+    },
+    {
+      "id": "SiteA_0193",
+      "image": "images/SiteA_0193.png",
+      "label": "masks/SiteA_0193.png"
+    },
+    {
+      "id": "SiteA_0194",
+      "image": "images/SiteA_0194.png",
+      "label": "masks/SiteA_0194.png"
+    },
+    {
+      "id": "SiteA_0195",
+      "image": "images/SiteA_0195.png",
+      "label": "masks/SiteA_0195.png"
+    },
+    {
+      "id": "SiteA_0196",
+      "image": "images/SiteA_0196.png",
+      "label": "masks/SiteA_0196.png"
+    },
+    {
+      "id": "SiteA_0197",
+      "image": "images/SiteA_0197.png",
+      "label": "masks/SiteA_0197.png"
+    },
+    {
+      "id": "SiteA_0198",
+      "image": "images/SiteA_0198.png",
+      "label": "masks/SiteA_0198.png"
+    },
+    {
+      "id": "SiteA_0199",
+      "image": "images/SiteA_0199.png",
+      "label": "masks/SiteA_0199.png"
+    },
+    {
+      "id": "SiteA_0200",
+      "image": "images/SiteA_0200.png",
+      "label": "masks/SiteA_0200.png"
+    },
+    {
+      "id": "SiteA_0201",
+      "image": "images/SiteA_0201.png",
+      "label": "masks/SiteA_0201.png"
+    },
+    {
+      "id": "SiteA_0202",
+      "image": "images/SiteA_0202.png",
+      "label": "masks/SiteA_0202.png"
+    },
+    {
+      "id": "SiteA_0203",
+      "image": "images/SiteA_0203.png",
+      "label": "masks/SiteA_0203.png"
+    },
+    {
+      "id": "SiteA_0204",
+      "image": "images/SiteA_0204.png",
+      "label": "masks/SiteA_0204.png"
+    },
+    {
+      "id": "SiteA_0205",
+      "image": "images/SiteA_0205.png",
+      "label": "masks/SiteA_0205.png"
+    },
+    {
+      "id": "SiteA_0206",
+      "image": "images/SiteA_0206.png",
+      "label": "masks/SiteA_0206.png"
+    },
+    {
+      "id": "SiteA_0207",
+      "image": "images/SiteA_0207.png",
+      "label": "masks/SiteA_0207.png"
+    },
+    {
+      "id": "SiteA_0208",
+      "image": "images/SiteA_0208.png",
+      "label": "masks/SiteA_0208.png"
+    },
+    {
+      "id": "SiteA_0209",
+      "image": "images/SiteA_0209.png",
+      "label": "masks/SiteA_0209.png"
+    },
+    {
+      "id": "SiteA_0210",
+      "image": "images/SiteA_0210.png",
+      "label": "masks/SiteA_0210.png"
+    },
+    {
+      "id": "SiteA_0211",
+      "image": "images/SiteA_0211.png",
+      "label": "masks/SiteA_0211.png"
+    },
+    {
+      "id": "SiteA_0212",
+      "image": "images/SiteA_0212.png",
+      "label": "masks/SiteA_0212.png"
+    },
+    {
+      "id": "SiteA_0213",
+      "image": "images/SiteA_0213.png",
+      "label": "masks/SiteA_0213.png"
+    },
+    {
+      "id": "SiteA_0214",
+      "image": "images/SiteA_0214.png",
+      "label": "masks/SiteA_0214.png"
+    },
+    {
+      "id": "SiteA_0215",
+      "image": "images/SiteA_0215.png",
+      "label": "masks/SiteA_0215.png"
+    },
+    {
+      "id": "SiteA_0216",
+      "image": "images/SiteA_0216.png",
+      "label": "masks/SiteA_0216.png"
+    },
+    {
+      "id": "SiteA_0217",
+      "image": "images/SiteA_0217.png",
+      "label": "masks/SiteA_0217.png"
+    },
+    {
+      "id": "SiteA_0218",
+      "image": "images/SiteA_0218.png",
+      "label": "masks/SiteA_0218.png"
+    },
+    {
+      "id": "SiteA_0219",
+      "image": "images/SiteA_0219.png",
+      "label": "masks/SiteA_0219.png"
+    },
+    {
+      "id": "SiteA_0220",
+      "image": "images/SiteA_0220.png",
+      "label": "masks/SiteA_0220.png"
+    },
+    {
+      "id": "SiteA_0221",
+      "image": "images/SiteA_0221.png",
+      "label": "masks/SiteA_0221.png"
+    },
+    {
+      "id": "SiteA_0222",
+      "image": "images/SiteA_0222.png",
+      "label": "masks/SiteA_0222.png"
+    },
+    {
+      "id": "SiteA_0223",
+      "image": "images/SiteA_0223.png",
+      "label": "masks/SiteA_0223.png"
+    },
+    {
+      "id": "SiteA_0224",
+      "image": "images/SiteA_0224.png",
+      "label": "masks/SiteA_0224.png"
+    },
+    {
+      "id": "SiteA_0225",
+      "image": "images/SiteA_0225.png",
+      "label": "masks/SiteA_0225.png"
+    },
+    {
+      "id": "SiteA_0226",
+      "image": "images/SiteA_0226.png",
+      "label": "masks/SiteA_0226.png"
+    },
+    {
+      "id": "SiteA_0227",
+      "image": "images/SiteA_0227.png",
+      "label": "masks/SiteA_0227.png"
+    },
+    {
+      "id": "SiteA_0228",
+      "image": "images/SiteA_0228.png",
+      "label": "masks/SiteA_0228.png"
+    },
+    {
+      "id": "SiteA_0229",
+      "image": "images/SiteA_0229.png",
+      "label": "masks/SiteA_0229.png"
+    },
+    {
+      "id": "SiteA_0230",
+      "image": "images/SiteA_0230.png",
+      "label": "masks/SiteA_0230.png"
+    },
+    {
+      "id": "SiteA_0231",
+      "image": "images/SiteA_0231.png",
+      "label": "masks/SiteA_0231.png"
+    },
+    {
+      "id": "SiteA_0232",
+      "image": "images/SiteA_0232.png",
+      "label": "masks/SiteA_0232.png"
+    },
+    {
+      "id": "SiteA_0233",
+      "image": "images/SiteA_0233.png",
+      "label": "masks/SiteA_0233.png"
+    },
+    {
+      "id": "SiteA_0234",
+      "image": "images/SiteA_0234.png",
+      "label": "masks/SiteA_0234.png"
+    },
+    {
+      "id": "SiteA_0235",
+      "image": "images/SiteA_0235.png",
+      "label": "masks/SiteA_0235.png"
+    },
+    {
+      "id": "SiteA_0236",
+      "image": "images/SiteA_0236.png",
+      "label": "masks/SiteA_0236.png"
+    },
+    {
+      "id": "SiteA_0237",
+      "image": "images/SiteA_0237.png",
+      "label": "masks/SiteA_0237.png"
+    },
+    {
+      "id": "SiteA_0238",
+      "image": "images/SiteA_0238.png",
+      "label": "masks/SiteA_0238.png"
+    },
+    {
+      "id": "SiteA_0239",
+      "image": "images/SiteA_0239.png",
+      "label": "masks/SiteA_0239.png"
+    },
+    {
+      "id": "SiteA_0240",
+      "image": "images/SiteA_0240.png",
+      "label": "masks/SiteA_0240.png"
+    },
+    {
+      "id": "SiteA_0241",
+      "image": "images/SiteA_0241.png",
+      "label": "masks/SiteA_0241.png"
+    },
+    {
+      "id": "SiteA_0242",
+      "image": "images/SiteA_0242.png",
+      "label": "masks/SiteA_0242.png"
+    },
+    {
+      "id": "SiteA_0243",
+      "image": "images/SiteA_0243.png",
+      "label": "masks/SiteA_0243.png"
+    },
+    {
+      "id": "SiteA_0244",
+      "image": "images/SiteA_0244.png",
+      "label": "masks/SiteA_0244.png"
+    },
+    {
+      "id": "SiteA_0245",
+      "image": "images/SiteA_0245.png",
+      "label": "masks/SiteA_0245.png"
+    },
+    {
+      "id": "SiteA_0246",
+      "image": "images/SiteA_0246.png",
+      "label": "masks/SiteA_0246.png"
+    },
+    {
+      "id": "SiteA_0247",
+      "image": "images/SiteA_0247.png",
+      "label": "masks/SiteA_0247.png"
+    },
+    {
+      "id": "SiteB_0001",
+      "image": "images/SiteB_0001.png",
+      "label": "masks/SiteB_0001.png"
+    },
+    {
+      "id": "SiteB_0002",
+      "image": "images/SiteB_0002.png",
+      "label": "masks/SiteB_0002.png"
+    },
+    {
+      "id": "SiteB_0003",
+      "image": "images/SiteB_0003.png",
+      "label": "masks/SiteB_0003.png"
+    },
+    {
+      "id": "SiteB_0004",
+      "image": "images/SiteB_0004.png",
+      "label": "masks/SiteB_0004.png"
+    },
+    {
+      "id": "SiteB_0005",
+      "image": "images/SiteB_0005.png",
+      "label": "masks/SiteB_0005.png"
+    },
+    {
+      "id": "SiteB_0006",
+      "image": "images/SiteB_0006.png",
+      "label": "masks/SiteB_0006.png"
+    },
+    {
+      "id": "SiteB_0007",
+      "image": "images/SiteB_0007.png",
+      "label": "masks/SiteB_0007.png"
+    },
+    {
+      "id": "SiteB_0008",
+      "image": "images/SiteB_0008.png",
+      "label": "masks/SiteB_0008.png"
+    },
+    {
+      "id": "SiteB_0009",
+      "image": "images/SiteB_0009.png",
+      "label": "masks/SiteB_0009.png"
+    },
+    {
+      "id": "SiteB_0010",
+      "image": "images/SiteB_0010.png",
+      "label": "masks/SiteB_0010.png"
+    },
+    {
+      "id": "SiteB_0011",
+      "image": "images/SiteB_0011.png",
+      "label": "masks/SiteB_0011.png"
+    },
+    {
+      "id": "SiteB_0012",
+      "image": "images/SiteB_0012.png",
+      "label": "masks/SiteB_0012.png"
+    },
+    {
+      "id": "SiteB_0013",
+      "image": "images/SiteB_0013.png",
+      "label": "masks/SiteB_0013.png"
+    },
+    {
+      "id": "SiteB_0014",
+      "image": "images/SiteB_0014.png",
+      "label": "masks/SiteB_0014.png"
+    },
+    {
+      "id": "SiteB_0015",
+      "image": "images/SiteB_0015.png",
+      "label": "masks/SiteB_0015.png"
+    },
+    {
+      "id": "SiteB_0016",
+      "image": "images/SiteB_0016.png",
+      "label": "masks/SiteB_0016.png"
+    },
+    {
+      "id": "SiteB_0017",
+      "image": "images/SiteB_0017.png",
+      "label": "masks/SiteB_0017.png"
+    },
+    {
+      "id": "SiteB_0018",
+      "image": "images/SiteB_0018.png",
+      "label": "masks/SiteB_0018.png"
+    },
+    {
+      "id": "SiteB_0019",
+      "image": "images/SiteB_0019.png",
+      "label": "masks/SiteB_0019.png"
+    },
+    {
+      "id": "SiteB_0020",
+      "image": "images/SiteB_0020.png",
+      "label": "masks/SiteB_0020.png"
+    },
+    {
+      "id": "SiteB_0021",
+      "image": "images/SiteB_0021.png",
+      "label": "masks/SiteB_0021.png"
+    },
+    {
+      "id": "SiteB_0022",
+      "image": "images/SiteB_0022.png",
+      "label": "masks/SiteB_0022.png"
+    },
+    {
+      "id": "SiteB_0023",
+      "image": "images/SiteB_0023.png",
+      "label": "masks/SiteB_0023.png"
+    },
+    {
+      "id": "SiteB_0024",
+      "image": "images/SiteB_0024.png",
+      "label": "masks/SiteB_0024.png"
+    },
+    {
+      "id": "SiteB_0025",
+      "image": "images/SiteB_0025.png",
+      "label": "masks/SiteB_0025.png"
+    },
+    {
+      "id": "SiteB_0026",
+      "image": "images/SiteB_0026.png",
+      "label": "masks/SiteB_0026.png"
+    },
+    {
+      "id": "SiteB_0027",
+      "image": "images/SiteB_0027.png",
+      "label": "masks/SiteB_0027.png"
+    },
+    {
+      "id": "SiteB_0028",
+      "image": "images/SiteB_0028.png",
+      "label": "masks/SiteB_0028.png"
+    },
+    {
+      "id": "SiteB_0029",
+      "image": "images/SiteB_0029.png",
+      "label": "masks/SiteB_0029.png"
+    },
+    {
+      "id": "SiteB_0030",
+      "image": "images/SiteB_0030.png",
+      "label": "masks/SiteB_0030.png"
+    },
+    {
+      "id": "SiteB_0031",
+      "image": "images/SiteB_0031.png",
+      "label": "masks/SiteB_0031.png"
+    },
+    {
+      "id": "SiteB_0032",
+      "image": "images/SiteB_0032.png",
+      "label": "masks/SiteB_0032.png"
+    },
+    {
+      "id": "SiteB_0033",
+      "image": "images/SiteB_0033.png",
+      "label": "masks/SiteB_0033.png"
+    },
+    {
+      "id": "SiteB_0034",
+      "image": "images/SiteB_0034.png",
+      "label": "masks/SiteB_0034.png"
+    },
+    {
+      "id": "SiteB_0035",
+      "image": "images/SiteB_0035.png",
+      "label": "masks/SiteB_0035.png"
+    },
+    {
+      "id": "SiteB_0036",
+      "image": "images/SiteB_0036.png",
+      "label": "masks/SiteB_0036.png"
+    },
+    {
+      "id": "SiteB_0037",
+      "image": "images/SiteB_0037.png",
+      "label": "masks/SiteB_0037.png"
+    },
+    {
+      "id": "SiteB_0038",
+      "image": "images/SiteB_0038.png",
+      "label": "masks/SiteB_0038.png"
+    },
+    {
+      "id": "SiteB_0039",
+      "image": "images/SiteB_0039.png",
+      "label": "masks/SiteB_0039.png"
+    },
+    {
+      "id": "SiteB_0040",
+      "image": "images/SiteB_0040.png",
+      "label": "masks/SiteB_0040.png"
+    },
+    {
+      "id": "SiteB_0041",
+      "image": "images/SiteB_0041.png",
+      "label": "masks/SiteB_0041.png"
+    },
+    {
+      "id": "SiteB_0042",
+      "image": "images/SiteB_0042.png",
+      "label": "masks/SiteB_0042.png"
+    },
+    {
+      "id": "SiteB_0043",
+      "image": "images/SiteB_0043.png",
+      "label": "masks/SiteB_0043.png"
+    },
+    {
+      "id": "SiteB_0044",
+      "image": "images/SiteB_0044.png",
+      "label": "masks/SiteB_0044.png"
+    },
+    {
+      "id": "SiteB_0045",
+      "image": "images/SiteB_0045.png",
+      "label": "masks/SiteB_0045.png"
+    },
+    {
+      "id": "SiteB_0046",
+      "image": "images/SiteB_0046.png",
+      "label": "masks/SiteB_0046.png"
+    },
+    {
+      "id": "SiteB_0047",
+      "image": "images/SiteB_0047.png",
+      "label": "masks/SiteB_0047.png"
+    },
+    {
+      "id": "SiteB_0048",
+      "image": "images/SiteB_0048.png",
+      "label": "masks/SiteB_0048.png"
+    },
+    {
+      "id": "SiteB_0049",
+      "image": "images/SiteB_0049.png",
+      "label": "masks/SiteB_0049.png"
+    },
+    {
+      "id": "SiteB_0050",
+      "image": "images/SiteB_0050.png",
+      "label": "masks/SiteB_0050.png"
+    },
+    {
+      "id": "SiteB_0051",
+      "image": "images/SiteB_0051.png",
+      "label": "masks/SiteB_0051.png"
+    },
+    {
+      "id": "SiteB_0052",
+      "image": "images/SiteB_0052.png",
+      "label": "masks/SiteB_0052.png"
+    },
+    {
+      "id": "SiteB_0053",
+      "image": "images/SiteB_0053.png",
+      "label": "masks/SiteB_0053.png"
+    },
+    {
+      "id": "SiteB_0054",
+      "image": "images/SiteB_0054.png",
+      "label": "masks/SiteB_0054.png"
+    },
+    {
+      "id": "SiteB_0055",
+      "image": "images/SiteB_0055.png",
+      "label": "masks/SiteB_0055.png"
+    },
+    {
+      "id": "SiteB_0056",
+      "image": "images/SiteB_0056.png",
+      "label": "masks/SiteB_0056.png"
+    },
+    {
+      "id": "SiteB_0057",
+      "image": "images/SiteB_0057.png",
+      "label": "masks/SiteB_0057.png"
+    },
+    {
+      "id": "SiteB_0058",
+      "image": "images/SiteB_0058.png",
+      "label": "masks/SiteB_0058.png"
+    },
+    {
+      "id": "SiteB_0059",
+      "image": "images/SiteB_0059.png",
+      "label": "masks/SiteB_0059.png"
+    },
+    {
+      "id": "SiteB_0060",
+      "image": "images/SiteB_0060.png",
+      "label": "masks/SiteB_0060.png"
+    },
+    {
+      "id": "SiteB_0061",
+      "image": "images/SiteB_0061.png",
+      "label": "masks/SiteB_0061.png"
+    },
+    {
+      "id": "SiteB_0062",
+      "image": "images/SiteB_0062.png",
+      "label": "masks/SiteB_0062.png"
+    },
+    {
+      "id": "SiteB_0063",
+      "image": "images/SiteB_0063.png",
+      "label": "masks/SiteB_0063.png"
+    },
+    {
+      "id": "SiteB_0064",
+      "image": "images/SiteB_0064.png",
+      "label": "masks/SiteB_0064.png"
+    },
+    {
+      "id": "SiteB_0065",
+      "image": "images/SiteB_0065.png",
+      "label": "masks/SiteB_0065.png"
+    },
+    {
+      "id": "SiteB_0066",
+      "image": "images/SiteB_0066.png",
+      "label": "masks/SiteB_0066.png"
+    },
+    {
+      "id": "SiteB_0067",
+      "image": "images/SiteB_0067.png",
+      "label": "masks/SiteB_0067.png"
+    },
+    {
+      "id": "SiteB_0068",
+      "image": "images/SiteB_0068.png",
+      "label": "masks/SiteB_0068.png"
+    },
+    {
+      "id": "SiteB_0069",
+      "image": "images/SiteB_0069.png",
+      "label": "masks/SiteB_0069.png"
+    },
+    {
+      "id": "SiteB_0070",
+      "image": "images/SiteB_0070.png",
+      "label": "masks/SiteB_0070.png"
+    },
+    {
+      "id": "SiteB_0071",
+      "image": "images/SiteB_0071.png",
+      "label": "masks/SiteB_0071.png"
+    },
+    {
+      "id": "SiteB_0072",
+      "image": "images/SiteB_0072.png",
+      "label": "masks/SiteB_0072.png"
+    },
+    {
+      "id": "SiteB_0073",
+      "image": "images/SiteB_0073.png",
+      "label": "masks/SiteB_0073.png"
+    },
+    {
+      "id": "SiteB_0074",
+      "image": "images/SiteB_0074.png",
+      "label": "masks/SiteB_0074.png"
+    },
+    {
+      "id": "SiteB_0075",
+      "image": "images/SiteB_0075.png",
+      "label": "masks/SiteB_0075.png"
+    },
+    {
+      "id": "SiteB_0076",
+      "image": "images/SiteB_0076.png",
+      "label": "masks/SiteB_0076.png"
+    },
+    {
+      "id": "SiteB_0077",
+      "image": "images/SiteB_0077.png",
+      "label": "masks/SiteB_0077.png"
+    },
+    {
+      "id": "SiteB_0078",
+      "image": "images/SiteB_0078.png",
+      "label": "masks/SiteB_0078.png"
+    },
+    {
+      "id": "SiteB_0079",
+      "image": "images/SiteB_0079.png",
+      "label": "masks/SiteB_0079.png"
+    },
+    {
+      "id": "SiteB_0080",
+      "image": "images/SiteB_0080.png",
+      "label": "masks/SiteB_0080.png"
+    },
+    {
+      "id": "SiteB_0081",
+      "image": "images/SiteB_0081.png",
+      "label": "masks/SiteB_0081.png"
+    },
+    {
+      "id": "SiteB_0082",
+      "image": "images/SiteB_0082.png",
+      "label": "masks/SiteB_0082.png"
+    },
+    {
+      "id": "SiteB_0083",
+      "image": "images/SiteB_0083.png",
+      "label": "masks/SiteB_0083.png"
+    },
+    {
+      "id": "SiteB_0084",
+      "image": "images/SiteB_0084.png",
+      "label": "masks/SiteB_0084.png"
+    },
+    {
+      "id": "SiteB_0085",
+      "image": "images/SiteB_0085.png",
+      "label": "masks/SiteB_0085.png"
+    },
+    {
+      "id": "SiteB_0086",
+      "image": "images/SiteB_0086.png",
+      "label": "masks/SiteB_0086.png"
+    },
+    {
+      "id": "SiteB_0087",
+      "image": "images/SiteB_0087.png",
+      "label": "masks/SiteB_0087.png"
+    },
+    {
+      "id": "SiteB_0088",
+      "image": "images/SiteB_0088.png",
+      "label": "masks/SiteB_0088.png"
+    },
+    {
+      "id": "SiteB_0089",
+      "image": "images/SiteB_0089.png",
+      "label": "masks/SiteB_0089.png"
+    },
+    {
+      "id": "SiteB_0090",
+      "image": "images/SiteB_0090.png",
+      "label": "masks/SiteB_0090.png"
+    },
+    {
+      "id": "SiteB_0091",
+      "image": "images/SiteB_0091.png",
+      "label": "masks/SiteB_0091.png"
+    },
+    {
+      "id": "SiteB_0092",
+      "image": "images/SiteB_0092.png",
+      "label": "masks/SiteB_0092.png"
+    },
+    {
+      "id": "SiteB_0093",
+      "image": "images/SiteB_0093.png",
+      "label": "masks/SiteB_0093.png"
+    },
+    {
+      "id": "SiteB_0094",
+      "image": "images/SiteB_0094.png",
+      "label": "masks/SiteB_0094.png"
+    },
+    {
+      "id": "SiteB_0095",
+      "image": "images/SiteB_0095.png",
+      "label": "masks/SiteB_0095.png"
+    },
+    {
+      "id": "SiteB_0096",
+      "image": "images/SiteB_0096.png",
+      "label": "masks/SiteB_0096.png"
+    },
+    {
+      "id": "SiteB_0097",
+      "image": "images/SiteB_0097.png",
+      "label": "masks/SiteB_0097.png"
+    },
+    {
+      "id": "SiteB_0098",
+      "image": "images/SiteB_0098.png",
+      "label": "masks/SiteB_0098.png"
+    },
+    {
+      "id": "SiteB_0099",
+      "image": "images/SiteB_0099.png",
+      "label": "masks/SiteB_0099.png"
+    },
+    {
+      "id": "SiteB_0100",
+      "image": "images/SiteB_0100.png",
+      "label": "masks/SiteB_0100.png"
+    },
+    {
+      "id": "SiteB_0101",
+      "image": "images/SiteB_0101.png",
+      "label": "masks/SiteB_0101.png"
+    },
+    {
+      "id": "SiteB_0102",
+      "image": "images/SiteB_0102.png",
+      "label": "masks/SiteB_0102.png"
+    },
+    {
+      "id": "SiteB_0103",
+      "image": "images/SiteB_0103.png",
+      "label": "masks/SiteB_0103.png"
+    },
+    {
+      "id": "SiteB_0104",
+      "image": "images/SiteB_0104.png",
+      "label": "masks/SiteB_0104.png"
+    },
+    {
+      "id": "SiteB_0105",
+      "image": "images/SiteB_0105.png",
+      "label": "masks/SiteB_0105.png"
+    },
+    {
+      "id": "SiteB_0106",
+      "image": "images/SiteB_0106.png",
+      "label": "masks/SiteB_0106.png"
+    },
+    {
+      "id": "SiteB_0107",
+      "image": "images/SiteB_0107.png",
+      "label": "masks/SiteB_0107.png"
+    },
+    {
+      "id": "SiteB_0108",
+      "image": "images/SiteB_0108.png",
+      "label": "masks/SiteB_0108.png"
+    },
+    {
+      "id": "SiteB_0109",
+      "image": "images/SiteB_0109.png",
+      "label": "masks/SiteB_0109.png"
+    },
+    {
+      "id": "SiteB_0110",
+      "image": "images/SiteB_0110.png",
+      "label": "masks/SiteB_0110.png"
+    },
+    {
+      "id": "SiteB_0111",
+      "image": "images/SiteB_0111.png",
+      "label": "masks/SiteB_0111.png"
+    },
+    {
+      "id": "SiteB_0112",
+      "image": "images/SiteB_0112.png",
+      "label": "masks/SiteB_0112.png"
+    },
+    {
+      "id": "SiteB_0113",
+      "image": "images/SiteB_0113.png",
+      "label": "masks/SiteB_0113.png"
+    },
+    {
+      "id": "SiteB_0114",
+      "image": "images/SiteB_0114.png",
+      "label": "masks/SiteB_0114.png"
+    },
+    {
+      "id": "SiteB_0115",
+      "image": "images/SiteB_0115.png",
+      "label": "masks/SiteB_0115.png"
+    },
+    {
+      "id": "SiteB_0116",
+      "image": "images/SiteB_0116.png",
+      "label": "masks/SiteB_0116.png"
+    },
+    {
+      "id": "SiteB_0117",
+      "image": "images/SiteB_0117.png",
+      "label": "masks/SiteB_0117.png"
+    },
+    {
+      "id": "SiteB_0118",
+      "image": "images/SiteB_0118.png",
+      "label": "masks/SiteB_0118.png"
+    },
+    {
+      "id": "SiteB_0119",
+      "image": "images/SiteB_0119.png",
+      "label": "masks/SiteB_0119.png"
+    },
+    {
+      "id": "SiteB_0120",
+      "image": "images/SiteB_0120.png",
+      "label": "masks/SiteB_0120.png"
+    },
+    {
+      "id": "SiteB_0121",
+      "image": "images/SiteB_0121.png",
+      "label": "masks/SiteB_0121.png"
+    },
+    {
+      "id": "SiteB_0122",
+      "image": "images/SiteB_0122.png",
+      "label": "masks/SiteB_0122.png"
+    },
+    {
+      "id": "SiteB_0123",
+      "image": "images/SiteB_0123.png",
+      "label": "masks/SiteB_0123.png"
+    },
+    {
+      "id": "SiteB_0124",
+      "image": "images/SiteB_0124.png",
+      "label": "masks/SiteB_0124.png"
+    },
+    {
+      "id": "SiteB_0125",
+      "image": "images/SiteB_0125.png",
+      "label": "masks/SiteB_0125.png"
+    },
+    {
+      "id": "SiteB_0126",
+      "image": "images/SiteB_0126.png",
+      "label": "masks/SiteB_0126.png"
+    },
+    {
+      "id": "SiteB_0127",
+      "image": "images/SiteB_0127.png",
+      "label": "masks/SiteB_0127.png"
+    },
+    {
+      "id": "SiteB_0128",
+      "image": "images/SiteB_0128.png",
+      "label": "masks/SiteB_0128.png"
+    },
+    {
+      "id": "SiteB_0129",
+      "image": "images/SiteB_0129.png",
+      "label": "masks/SiteB_0129.png"
+    },
+    {
+      "id": "SiteB_0130",
+      "image": "images/SiteB_0130.png",
+      "label": "masks/SiteB_0130.png"
+    },
+    {
+      "id": "SiteB_0131",
+      "image": "images/SiteB_0131.png",
+      "label": "masks/SiteB_0131.png"
+    },
+    {
+      "id": "SiteB_0132",
+      "image": "images/SiteB_0132.png",
+      "label": "masks/SiteB_0132.png"
+    },
+    {
+      "id": "SiteB_0133",
+      "image": "images/SiteB_0133.png",
+      "label": "masks/SiteB_0133.png"
+    },
+    {
+      "id": "SiteB_0134",
+      "image": "images/SiteB_0134.png",
+      "label": "masks/SiteB_0134.png"
+    },
+    {
+      "id": "SiteB_0135",
+      "image": "images/SiteB_0135.png",
+      "label": "masks/SiteB_0135.png"
+    },
+    {
+      "id": "SiteB_0136",
+      "image": "images/SiteB_0136.png",
+      "label": "masks/SiteB_0136.png"
+    },
+    {
+      "id": "SiteB_0137",
+      "image": "images/SiteB_0137.png",
+      "label": "masks/SiteB_0137.png"
+    },
+    {
+      "id": "SiteB_0138",
+      "image": "images/SiteB_0138.png",
+      "label": "masks/SiteB_0138.png"
+    },
+    {
+      "id": "SiteB_0139",
+      "image": "images/SiteB_0139.png",
+      "label": "masks/SiteB_0139.png"
+    },
+    {
+      "id": "SiteB_0140",
+      "image": "images/SiteB_0140.png",
+      "label": "masks/SiteB_0140.png"
+    },
+    {
+      "id": "SiteB_0141",
+      "image": "images/SiteB_0141.png",
+      "label": "masks/SiteB_0141.png"
+    },
+    {
+      "id": "SiteB_0142",
+      "image": "images/SiteB_0142.png",
+      "label": "masks/SiteB_0142.png"
+    },
+    {
+      "id": "SiteB_0143",
+      "image": "images/SiteB_0143.png",
+      "label": "masks/SiteB_0143.png"
+    },
+    {
+      "id": "SiteB_0144",
+      "image": "images/SiteB_0144.png",
+      "label": "masks/SiteB_0144.png"
+    },
+    {
+      "id": "SiteB_0145",
+      "image": "images/SiteB_0145.png",
+      "label": "masks/SiteB_0145.png"
+    },
+    {
+      "id": "SiteB_0146",
+      "image": "images/SiteB_0146.png",
+      "label": "masks/SiteB_0146.png"
+    },
+    {
+      "id": "SiteB_0147",
+      "image": "images/SiteB_0147.png",
+      "label": "masks/SiteB_0147.png"
+    },
+    {
+      "id": "SiteB_0148",
+      "image": "images/SiteB_0148.png",
+      "label": "masks/SiteB_0148.png"
+    },
+    {
+      "id": "SiteB_0149",
+      "image": "images/SiteB_0149.png",
+      "label": "masks/SiteB_0149.png"
+    },
+    {
+      "id": "SiteB_0150",
+      "image": "images/SiteB_0150.png",
+      "label": "masks/SiteB_0150.png"
+    },
+    {
+      "id": "SiteB_0151",
+      "image": "images/SiteB_0151.png",
+      "label": "masks/SiteB_0151.png"
+    },
+    {
+      "id": "SiteB_0152",
+      "image": "images/SiteB_0152.png",
+      "label": "masks/SiteB_0152.png"
+    },
+    {
+      "id": "SiteB_0153",
+      "image": "images/SiteB_0153.png",
+      "label": "masks/SiteB_0153.png"
+    },
+    {
+      "id": "SiteB_0154",
+      "image": "images/SiteB_0154.png",
+      "label": "masks/SiteB_0154.png"
+    },
+    {
+      "id": "SiteB_0155",
+      "image": "images/SiteB_0155.png",
+      "label": "masks/SiteB_0155.png"
+    },
+    {
+      "id": "SiteB_0156",
+      "image": "images/SiteB_0156.png",
+      "label": "masks/SiteB_0156.png"
+    },
+    {
+      "id": "SiteB_0157",
+      "image": "images/SiteB_0157.png",
+      "label": "masks/SiteB_0157.png"
+    },
+    {
+      "id": "SiteB_0158",
+      "image": "images/SiteB_0158.png",
+      "label": "masks/SiteB_0158.png"
+    },
+    {
+      "id": "SiteB_0159",
+      "image": "images/SiteB_0159.png",
+      "label": "masks/SiteB_0159.png"
+    },
+    {
+      "id": "SiteB_0160",
+      "image": "images/SiteB_0160.png",
+      "label": "masks/SiteB_0160.png"
+    },
+    {
+      "id": "SiteB_0161",
+      "image": "images/SiteB_0161.png",
+      "label": "masks/SiteB_0161.png"
+    },
+    {
+      "id": "SiteB_0162",
+      "image": "images/SiteB_0162.png",
+      "label": "masks/SiteB_0162.png"
+    },
+    {
+      "id": "SiteB_0163",
+      "image": "images/SiteB_0163.png",
+      "label": "masks/SiteB_0163.png"
+    },
+    {
+      "id": "SiteB_0164",
+      "image": "images/SiteB_0164.png",
+      "label": "masks/SiteB_0164.png"
+    },
+    {
+      "id": "SiteB_0165",
+      "image": "images/SiteB_0165.png",
+      "label": "masks/SiteB_0165.png"
+    },
+    {
+      "id": "SiteB_0166",
+      "image": "images/SiteB_0166.png",
+      "label": "masks/SiteB_0166.png"
+    },
+    {
+      "id": "SiteB_0167",
+      "image": "images/SiteB_0167.png",
+      "label": "masks/SiteB_0167.png"
+    },
+    {
+      "id": "SiteB_0168",
+      "image": "images/SiteB_0168.png",
+      "label": "masks/SiteB_0168.png"
+    },
+    {
+      "id": "SiteB_0169",
+      "image": "images/SiteB_0169.png",
+      "label": "masks/SiteB_0169.png"
+    },
+    {
+      "id": "SiteB_0170",
+      "image": "images/SiteB_0170.png",
+      "label": "masks/SiteB_0170.png"
+    },
+    {
+      "id": "SiteB_0171",
+      "image": "images/SiteB_0171.png",
+      "label": "masks/SiteB_0171.png"
+    },
+    {
+      "id": "SiteB_0172",
+      "image": "images/SiteB_0172.png",
+      "label": "masks/SiteB_0172.png"
+    },
+    {
+      "id": "SiteB_0173",
+      "image": "images/SiteB_0173.png",
+      "label": "masks/SiteB_0173.png"
+    },
+    {
+      "id": "SiteB_0174",
+      "image": "images/SiteB_0174.png",
+      "label": "masks/SiteB_0174.png"
+    },
+    {
+      "id": "SiteB_0175",
+      "image": "images/SiteB_0175.png",
+      "label": "masks/SiteB_0175.png"
+    },
+    {
+      "id": "SiteB_0176",
+      "image": "images/SiteB_0176.png",
+      "label": "masks/SiteB_0176.png"
+    },
+    {
+      "id": "SiteB_0177",
+      "image": "images/SiteB_0177.png",
+      "label": "masks/SiteB_0177.png"
+    },
+    {
+      "id": "SiteB_0178",
+      "image": "images/SiteB_0178.png",
+      "label": "masks/SiteB_0178.png"
+    },
+    {
+      "id": "SiteB_0179",
+      "image": "images/SiteB_0179.png",
+      "label": "masks/SiteB_0179.png"
+    },
+    {
+      "id": "SiteC_0001",
+      "image": "images/SiteC_0001.png",
+      "label": "masks/SiteC_0001.png"
+    },
+    {
+      "id": "SiteC_0002",
+      "image": "images/SiteC_0002.png",
+      "label": "masks/SiteC_0002.png"
+    },
+    {
+      "id": "SiteC_0003",
+      "image": "images/SiteC_0003.png",
+      "label": "masks/SiteC_0003.png"
+    },
+    {
+      "id": "SiteC_0004",
+      "image": "images/SiteC_0004.png",
+      "label": "masks/SiteC_0004.png"
+    },
+    {
+      "id": "SiteC_0005",
+      "image": "images/SiteC_0005.png",
+      "label": "masks/SiteC_0005.png"
+    },
+    {
+      "id": "SiteC_0006",
+      "image": "images/SiteC_0006.png",
+      "label": "masks/SiteC_0006.png"
+    },
+    {
+      "id": "SiteC_0007",
+      "image": "images/SiteC_0007.png",
+      "label": "masks/SiteC_0007.png"
+    },
+    {
+      "id": "SiteC_0008",
+      "image": "images/SiteC_0008.png",
+      "label": "masks/SiteC_0008.png"
+    },
+    {
+      "id": "SiteC_0009",
+      "image": "images/SiteC_0009.png",
+      "label": "masks/SiteC_0009.png"
+    },
+    {
+      "id": "SiteC_0010",
+      "image": "images/SiteC_0010.png",
+      "label": "masks/SiteC_0010.png"
+    },
+    {
+      "id": "SiteC_0011",
+      "image": "images/SiteC_0011.png",
+      "label": "masks/SiteC_0011.png"
+    },
+    {
+      "id": "SiteC_0012",
+      "image": "images/SiteC_0012.png",
+      "label": "masks/SiteC_0012.png"
+    },
+    {
+      "id": "SiteC_0013",
+      "image": "images/SiteC_0013.png",
+      "label": "masks/SiteC_0013.png"
+    },
+    {
+      "id": "SiteC_0014",
+      "image": "images/SiteC_0014.png",
+      "label": "masks/SiteC_0014.png"
+    },
+    {
+      "id": "SiteC_0015",
+      "image": "images/SiteC_0015.png",
+      "label": "masks/SiteC_0015.png"
+    },
+    {
+      "id": "SiteC_0016",
+      "image": "images/SiteC_0016.png",
+      "label": "masks/SiteC_0016.png"
+    },
+    {
+      "id": "SiteC_0017",
+      "image": "images/SiteC_0017.png",
+      "label": "masks/SiteC_0017.png"
+    },
+    {
+      "id": "SiteC_0018",
+      "image": "images/SiteC_0018.png",
+      "label": "masks/SiteC_0018.png"
+    },
+    {
+      "id": "SiteC_0019",
+      "image": "images/SiteC_0019.png",
+      "label": "masks/SiteC_0019.png"
+    },
+    {
+      "id": "SiteC_0020",
+      "image": "images/SiteC_0020.png",
+      "label": "masks/SiteC_0020.png"
+    },
+    {
+      "id": "SiteC_0021",
+      "image": "images/SiteC_0021.png",
+      "label": "masks/SiteC_0021.png"
+    },
+    {
+      "id": "SiteC_0022",
+      "image": "images/SiteC_0022.png",
+      "label": "masks/SiteC_0022.png"
+    },
+    {
+      "id": "SiteC_0023",
+      "image": "images/SiteC_0023.png",
+      "label": "masks/SiteC_0023.png"
+    },
+    {
+      "id": "SiteC_0024",
+      "image": "images/SiteC_0024.png",
+      "label": "masks/SiteC_0024.png"
+    },
+    {
+      "id": "SiteC_0025",
+      "image": "images/SiteC_0025.png",
+      "label": "masks/SiteC_0025.png"
+    },
+    {
+      "id": "SiteC_0026",
+      "image": "images/SiteC_0026.png",
+      "label": "masks/SiteC_0026.png"
+    },
+    {
+      "id": "SiteC_0027",
+      "image": "images/SiteC_0027.png",
+      "label": "masks/SiteC_0027.png"
+    },
+    {
+      "id": "SiteC_0028",
+      "image": "images/SiteC_0028.png",
+      "label": "masks/SiteC_0028.png"
+    },
+    {
+      "id": "SiteC_0029",
+      "image": "images/SiteC_0029.png",
+      "label": "masks/SiteC_0029.png"
+    },
+    {
+      "id": "SiteC_0030",
+      "image": "images/SiteC_0030.png",
+      "label": "masks/SiteC_0030.png"
+    },
+    {
+      "id": "SiteC_0031",
+      "image": "images/SiteC_0031.png",
+      "label": "masks/SiteC_0031.png"
+    },
+    {
+      "id": "SiteC_0032",
+      "image": "images/SiteC_0032.png",
+      "label": "masks/SiteC_0032.png"
+    },
+    {
+      "id": "SiteC_0033",
+      "image": "images/SiteC_0033.png",
+      "label": "masks/SiteC_0033.png"
+    },
+    {
+      "id": "SiteC_0034",
+      "image": "images/SiteC_0034.png",
+      "label": "masks/SiteC_0034.png"
+    },
+    {
+      "id": "SiteC_0035",
+      "image": "images/SiteC_0035.png",
+      "label": "masks/SiteC_0035.png"
+    },
+    {
+      "id": "SiteC_0036",
+      "image": "images/SiteC_0036.png",
+      "label": "masks/SiteC_0036.png"
+    },
+    {
+      "id": "SiteC_0037",
+      "image": "images/SiteC_0037.png",
+      "label": "masks/SiteC_0037.png"
+    },
+    {
+      "id": "SiteC_0038",
+      "image": "images/SiteC_0038.png",
+      "label": "masks/SiteC_0038.png"
+    },
+    {
+      "id": "SiteC_0039",
+      "image": "images/SiteC_0039.png",
+      "label": "masks/SiteC_0039.png"
+    },
+    {
+      "id": "SiteC_0040",
+      "image": "images/SiteC_0040.png",
+      "label": "masks/SiteC_0040.png"
+    },
+    {
+      "id": "SiteC_0041",
+      "image": "images/SiteC_0041.png",
+      "label": "masks/SiteC_0041.png"
+    },
+    {
+      "id": "SiteC_0042",
+      "image": "images/SiteC_0042.png",
+      "label": "masks/SiteC_0042.png"
+    },
+    {
+      "id": "SiteC_0043",
+      "image": "images/SiteC_0043.png",
+      "label": "masks/SiteC_0043.png"
+    },
+    {
+      "id": "SiteC_0044",
+      "image": "images/SiteC_0044.png",
+      "label": "masks/SiteC_0044.png"
+    },
+    {
+      "id": "SiteC_0045",
+      "image": "images/SiteC_0045.png",
+      "label": "masks/SiteC_0045.png"
+    },
+    {
+      "id": "SiteC_0046",
+      "image": "images/SiteC_0046.png",
+      "label": "masks/SiteC_0046.png"
+    },
+    {
+      "id": "SiteC_0047",
+      "image": "images/SiteC_0047.png",
+      "label": "masks/SiteC_0047.png"
+    },
+    {
+      "id": "SiteC_0048",
+      "image": "images/SiteC_0048.png",
+      "label": "masks/SiteC_0048.png"
+    },
+    {
+      "id": "SiteC_0049",
+      "image": "images/SiteC_0049.png",
+      "label": "masks/SiteC_0049.png"
+    },
+    {
+      "id": "SiteC_0050",
+      "image": "images/SiteC_0050.png",
+      "label": "masks/SiteC_0050.png"
+    },
+    {
+      "id": "SiteC_0051",
+      "image": "images/SiteC_0051.png",
+      "label": "masks/SiteC_0051.png"
+    },
+    {
+      "id": "SiteC_0052",
+      "image": "images/SiteC_0052.png",
+      "label": "masks/SiteC_0052.png"
+    },
+    {
+      "id": "SiteC_0053",
+      "image": "images/SiteC_0053.png",
+      "label": "masks/SiteC_0053.png"
+    },
+    {
+      "id": "SiteC_0054",
+      "image": "images/SiteC_0054.png",
+      "label": "masks/SiteC_0054.png"
+    },
+    {
+      "id": "SiteC_0055",
+      "image": "images/SiteC_0055.png",
+      "label": "masks/SiteC_0055.png"
+    },
+    {
+      "id": "SiteC_0056",
+      "image": "images/SiteC_0056.png",
+      "label": "masks/SiteC_0056.png"
+    },
+    {
+      "id": "SiteC_0057",
+      "image": "images/SiteC_0057.png",
+      "label": "masks/SiteC_0057.png"
+    },
+    {
+      "id": "SiteC_0058",
+      "image": "images/SiteC_0058.png",
+      "label": "masks/SiteC_0058.png"
+    },
+    {
+      "id": "SiteC_0059",
+      "image": "images/SiteC_0059.png",
+      "label": "masks/SiteC_0059.png"
+    },
+    {
+      "id": "SiteC_0060",
+      "image": "images/SiteC_0060.png",
+      "label": "masks/SiteC_0060.png"
+    },
+    {
+      "id": "SiteC_0061",
+      "image": "images/SiteC_0061.png",
+      "label": "masks/SiteC_0061.png"
+    },
+    {
+      "id": "SiteC_0062",
+      "image": "images/SiteC_0062.png",
+      "label": "masks/SiteC_0062.png"
+    },
+    {
+      "id": "SiteC_0063",
+      "image": "images/SiteC_0063.png",
+      "label": "masks/SiteC_0063.png"
+    },
+    {
+      "id": "SiteC_0064",
+      "image": "images/SiteC_0064.png",
+      "label": "masks/SiteC_0064.png"
+    },
+    {
+      "id": "SiteC_0065",
+      "image": "images/SiteC_0065.png",
+      "label": "masks/SiteC_0065.png"
+    },
+    {
+      "id": "SiteC_0066",
+      "image": "images/SiteC_0066.png",
+      "label": "masks/SiteC_0066.png"
+    },
+    {
+      "id": "SiteC_0067",
+      "image": "images/SiteC_0067.png",
+      "label": "masks/SiteC_0067.png"
+    },
+    {
+      "id": "SiteC_0068",
+      "image": "images/SiteC_0068.png",
+      "label": "masks/SiteC_0068.png"
+    },
+    {
+      "id": "SiteC_0069",
+      "image": "images/SiteC_0069.png",
+      "label": "masks/SiteC_0069.png"
+    },
+    {
+      "id": "SiteC_0070",
+      "image": "images/SiteC_0070.png",
+      "label": "masks/SiteC_0070.png"
+    },
+    {
+      "id": "SiteC_0071",
+      "image": "images/SiteC_0071.png",
+      "label": "masks/SiteC_0071.png"
+    },
+    {
+      "id": "SiteC_0072",
+      "image": "images/SiteC_0072.png",
+      "label": "masks/SiteC_0072.png"
+    }
+  ]
+}

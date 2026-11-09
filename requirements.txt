@@ -1,0 +1,16 @@
+# Install the matching CUDA PyTorch wheel before these dependencies.
+numpy==1.26.4
+albumentations==2.0.8
+opencv-python-headless==4.10.0.84
+scipy==1.15.3
+medpy==0.5.2
+PyYAML==6.0.3
+matplotlib==3.10.8
+seaborn==0.13.2
+einops==0.8.2
+ninja
+packaging
+torchinfo==1.8.0
+# Build against the installed PyTorch/CUDA environment:
+causal-conv1d==1.1.3.post1
+mamba-ssm==1.1.1
