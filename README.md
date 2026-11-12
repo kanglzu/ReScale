@@ -26,7 +26,7 @@ Each crop carries its relative width and height, allowing the predictor to accou
 for scale changes after resizing. Custom CUDA kernels accelerate region extraction,
 sampling and reconstruction; CUDA graph replay reduces inference overhead.
 
-![ReScale architecture: shared predictor, scale-conditioned context, compressed Mamba and CUDA recursive refinement](docs/assets/overview-d5fa90b7.png)
+![ReScale architecture: shared predictor, scale-conditioned context, compressed Mamba and CUDA recursive refinement](docs/assets/overview-632a6491.png)
 
 Each blue stage contains two blocks; the finest-resolution encoder and decoder stages use local-only variants.
 
